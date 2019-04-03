@@ -36,7 +36,7 @@ I'm a 4th year undergraduate student currently studying at UCLA and majoring in 
 
 ### Teaching
 
-As president of UCLA's ACM AI group, I've presented/co-presented on the following topics (with slides attached).
+As a former president of UCLA's ACM AI group, I've presented/co-presented on the following topics (with slides attached).
 
 * [ACM AI Intro Meeting](http://bit.ly/2xw2T18){:target="_blank"}
 * [Workshop #1: Linear Regression with Tensorflow](http://bit.ly/2hj5epX){:target="_blank"}
