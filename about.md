@@ -66,7 +66,10 @@ As part of ACM AI, we hold research paper reading group meetings.
 * *Sapiens: A Brief History of Humankind* - Yuval Noah Harari 
 * *Homo Deus: A Brief History of Tomorrow* - Yuval Noah Harari 
 * *Born a Crime* - Trevor Noah
+* *The Spirit Catches You and You Fall Down* - Anne Fadiman
+* *Tuesdays with Morrie* - Mitch Albom
+* *Out of Mao's Shadow: The Struggle for the Soul of a New China* - Philip P. Pan
 
 ### Contact me
 
-[adeshpande3@ucla.edu](mailto:adeshpande3@ucla.edu)
+[aditdeshpande3@gmail.com](mailto:aditdeshpande3@gmail.com)
