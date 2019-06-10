@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-I'm a 4th year undergraduate student currently studying at UCLA and majoring in computer science. Working to reinvent healthcare with [Forward](https://goforward.com/) after graduation. 
+Currently a SWE at [Forward](https://goforward.com/). UCLA CS '19
 
 ### Internships
 
@@ -22,7 +21,6 @@ I'm a 4th year undergraduate student currently studying at UCLA and majoring in 
 
 * Author at O'Reilly Media 
 * President(2018-2019), Vice President(2017-2018) of UCLA ACM Artificial Intelligence
-* Coach with UCLA Special Olympics 
 * Peer Mentor with UCLA Engineering Mentorship Program 
 * UCLA Lead Resident Assistant(2018-2019), UCLA Resident Assistant(2017-2018)
 
@@ -47,11 +45,6 @@ As a former president of UCLA's ACM AI group, I've presented/co-presented on the
 * [Workshop #6: Convolutional Neural Networks with Tensorflow](https://docs.google.com/presentation/d/12uEAa9Tpm660ggIVKtoPpyhVC_N41uVO5itMNsXA1Y8/edit?usp=sharing){:target="_blank"}
 * [Workshop #7: Recurrent Neural Networks with Tensorflow](https://docs.google.com/presentation/d/1MmU6mNhX0fuOE_z02bTtiXlgslRYSljuaU2OMatM7bg/edit?usp=sharing){:target="_blank"}
 
-As part of ACM AI, we hold research paper reading group meetings.
-
-* [Meeting #1: A Few Useful Things to Know About ML](https://docs.google.com/presentation/d/1I2B0TLEWjffEXZva6OEw1mfU4FWZ5vSjBnfxFXmXl6g/edit?usp=sharing){:target="_blank"}
-* [Meeting #2: Deep Learning](https://docs.google.com/presentation/d/12AthaGiN669pe_6fvGz0DPb9emsJJK20xbOWu2l2ixo/edit?usp=sharing){:target="_blank"}
-
 <img src="/assets/Workshop.jpg">
 
 ### Books I'd Highly Recommend
@@ -69,6 +62,7 @@ As part of ACM AI, we hold research paper reading group meetings.
 * *The Spirit Catches You and You Fall Down* - Anne Fadiman
 * *Tuesdays with Morrie* - Mitch Albom
 * *Out of Mao's Shadow: The Struggle for the Soul of a New China* - Philip P. Pan
+* *Just Mercy* - Bryan Stevenson
 
 ### Contact me
 
