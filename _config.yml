@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Krutika Bapat
+name: Kushashwa Ravi Shrimali
 
 # Short bio or description (displayed in the header)
-description: Engineering at IIIT-Naya Raipur | 2016-2020
+description: Senior, IIIT-NR | Visiting Researcher, ROSE Labs, NTU Singapore  
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: "/images/IMG_20160820_175515.jpg"
+avatar: "/images/Kushashwa.PNG"
 
 #
 # Flags below are optional
@@ -18,16 +18,16 @@ avatar: "/images/IMG_20160820_175515.jpg"
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: bapatkrutika@gmail.com
+  email: kushashwaravishrimali@gmail.com
   facebook:
   flickr:
-  github: krutikabapat
-  instagram: krutikabapat
-  linkedin: Krutika Bapat
+  github: krshrimali
+  instagram: kushashwa
+  linkedin: kushashwa-ravi-shrimali-b6780152
   pinterest:
-  rss: krutikabapat
-  twitter: krutikabapat
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  rss: 
+  twitter: kushashwa
+  stackoverflow: users/2218021/kushashwa-ravi-shrimali # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -47,7 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/krutikabapat.github.io"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
