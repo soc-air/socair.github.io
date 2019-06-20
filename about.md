@@ -24,14 +24,6 @@ Currently a Research Intern at ROSE Labs,NTU Singapore [Forward](https://rose.nt
 * Peer Mentor with UCLA Engineering Mentorship Program 
 * UCLA Lead Resident Assistant(2018-2019), UCLA Resident Assistant(2017-2018)
 
-### Published Writing
-
-* [KDnuggets author page](http://www.kdnuggets.com/author/adit-deshpande){:target="_blank"}
-* [Interview with KDnuggets](http://www.kdnuggets.com/2016/10/top-blogger-interview-adit-deshpande.html){:target="_blank"}
-* [DZone author page](https://dzone.com/users/2843746/adeshpande3.html){:target="_blank"}
-* [O'Reilly Generative Adversarial Network Tutorial](https://www.oreilly.com/learning/generative-adversarial-networks-for-beginners){:target="_blank"}
-* [O'Reilly LSTM Video Tutorial](https://www.oreilly.com/learning/perform-sentiment-analysis-with-lstms-using-tensorflow){:target="_blank"}
-
 ### Teaching
 
 As a former president of UCLA's ACM AI group, I've presented/co-presented on the following topics (with slides attached).
@@ -49,21 +41,14 @@ As a former president of UCLA's ACM AI group, I've presented/co-presented on the
 
 ### Books I'd Highly Recommend
 
-* *When Breath Becomes Air* - Paul Kalanithi
-* *Option B* - Sheryl Sandberg
-* *Quiet: The Power of Introverts in a World That Can't Stop Talking* - Susan Cain
+
 * *Emotional Agility* - Susan David
 * *Chasing the Scream* - Johann Hari
 * *The Elegant Universe* - Brian Greene
-* *10% Happier* - Dan Harris
 * *Sapiens: A Brief History of Humankind* - Yuval Noah Harari 
-* *Homo Deus: A Brief History of Tomorrow* - Yuval Noah Harari 
-* *Born a Crime* - Trevor Noah
-* *The Spirit Catches You and You Fall Down* - Anne Fadiman
-* *Tuesdays with Morrie* - Mitch Albom
 * *Out of Mao's Shadow: The Struggle for the Soul of a New China* - Philip P. Pan
 * *Just Mercy* - Bryan Stevenson
 
 ### Contact me
 
-[aditdeshpande3@gmail.com](mailto:aditdeshpande3@gmail.com)
+[bapatkrutika@gmail.com](mailto:bapatkrutika@gmail.com)
