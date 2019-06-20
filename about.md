@@ -37,7 +37,7 @@ As a former president of AI/ML club at IIIT-Naya Raipur, I've presented/co-prese
 * [Workshop #7: Recurrent Neural Networks with Tensorflow]{:target="_blank"}
 * [Workshop #8: Crowd counting using CSRNet]{:target="_blank"}
 
-<img src="/assets/Workshop.jpg">
+<img src="/assets/club.jpg">
 
 ### Books I'd Highly Recommend
 
