@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-Currently a Research Intern at ROSE Labs,NTU Singapore [Forward](https://rose.ntu.edu.sg/Pages/Home.aspx). May(2019)- July(2019)
+Currently a Research Intern at ROSE Labs,NTU Singapore [ROSE Labs](https://rose.ntu.edu.sg/Pages/Home.aspx). May(2019)- July(2019). A Computer Vision, deep learning and machine learning enthusiast.
 
 ### Internships
 
