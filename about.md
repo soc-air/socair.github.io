@@ -7,7 +7,7 @@ Currently a Research Intern at ROSE Labs,NTU Singapore [ROSE Labs](https://rose.
 
 ### Internships
 
-<img src="/assets/rose.png" width="250">                    <img src="/assets/ntu.png" width="250">                     <img src="/assets/iit.jpeg" width="100">                     <img src="/assets/microsoft.jpg" width="125">
+<img src="/assets/rose.png" width="250">                    <img src="/assets/ntu.png" width="250">                     <img src="/assets/iit.jpeg" width="175">                     <img src="/assets/microsoft.jpg" width="200">
 
 
 * Deep learning and Computer Vision Intern at ROSE Labs NTU Singapore (May 2019- July 2019) 
@@ -19,23 +19,22 @@ Currently a Research Intern at ROSE Labs,NTU Singapore [ROSE Labs](https://rose.
 <img src="/assets/oreily.png">                    <img src="/assets/acmai.png">                     <img src="/assets/specialo.jpg" >                                                                    
 <img src="/assets/reslife.png" >
 
-* Author at O'Reilly Media 
-* President(2018-2019), Vice President(2017-2018) of UCLA ACM Artificial Intelligence
-* Peer Mentor with UCLA Engineering Mentorship Program 
-* UCLA Lead Resident Assistant(2018-2019), UCLA Resident Assistant(2017-2018)
+* OpenCV Contributer
+* President Artificial Intelligence/ML club IIIT-Naya Raipur.
+
 
 ### Teaching
 
 As a former president of AI/ML club at IIIT-Naya Raipur, I've presented/co-presented on the following topics
 
-* [Workshop #1: Linear Regression with Keras]{:target="_blank"}
-* [Workshop #2: Numpy and Kaggle]{:target="_blank"}
-* [Workshop #3: Pandas and Kaggle](http://bit.ly/2zN49gV){:target="_blank"}
-* [Workshop #4: CNN with Tensorflow](http://bit.ly/2yqN2W9){:target="_blank"}
-* [Workshop #5: Multi Layer Neural Networks with Tensorflow]{:target="_blank"}
-* [Workshop #6: Convolutional Neural Networks with Tensorflow]{:target="_blank"}
-* [Workshop #7: Recurrent Neural Networks with Tensorflow]{:target="_blank"}
-* [Workshop #8: Crowd counting using CSRNet]{:target="_blank"}
+* [Workshop #1: Linear Regression with Keras]
+* [Workshop #2: Numpy and Kaggle]
+* [Workshop #3: Pandas and Kaggle]
+* [Workshop #4: CNN with Tensorflow]
+* [Workshop #5: Multi Layer Neural Networks with Tensorflow]
+* [Workshop #6: Convolutional Neural Networks with Tensorflow]
+* [Workshop #7: Recurrent Neural Networks with Tensorflow]
+* [Workshop #8: Crowd counting using CSRNet]
 
 <img src="/assets/club.jpg">
 
