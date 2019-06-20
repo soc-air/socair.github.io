@@ -64,7 +64,7 @@ Blogs
 
 I discuss about using PyTorch C++ API for Digit Recognition using MNIST Dataset.
 
-[**What's so special about Gaussian Distribution?](https://krshrimali.github.io/Understanding-Gaussian-Distribution/):
+[**What's so special about Gaussian Distribution?**](https://krshrimali.github.io/Understanding-Gaussian-Distribution/):
 
 I discuss about Gaussian Distribution and it's implementation. 
 
