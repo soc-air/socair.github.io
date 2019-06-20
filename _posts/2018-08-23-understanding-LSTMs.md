@@ -10,6 +10,6 @@ icon: icon-html
 ---
 
 These are my learning notes on Understanding LSTMs from Colah's blog. 
-![Feature Image](https://github.com/krshrimali/krshrimali.github.io/raw/master/static/assets/img/blog/understanding-lstms/understanding-lstms.jpg)
+![Feature Image](https://raw.githubusercontent.com/krshrimali/krshrimali.github.io/master/assets/blog/understanding-lstms.jpg)
 
 ---
