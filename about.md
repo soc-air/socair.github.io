@@ -16,7 +16,7 @@ Currently a Research Intern at ROSE Labs,NTU Singapore [ROSE Labs](https://rose.
 * Microsoft Technology Associate (2018)
 
 ### Experience
-<img src="/assets/oreily.png">                    <img src="/assets/acmai.png">                     <img src="/assets/specialo.jpg" >                                                                    
+<img src="/assets/opencv.png">                    <img src="/assets/acmai.png">                     <img src="/assets/specialo.jpg" >                                                                    
 <img src="/assets/reslife.png" >
 
 * OpenCV Contributer
