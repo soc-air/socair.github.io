@@ -7,7 +7,7 @@ Currently a Research Intern at ROSE Labs,NTU Singapore [Forward](https://rose.nt
 
 ### Internships
 
-<img src="/assets/rose.png" width="250">                    <img src="/assets/ntu.png" width="250">                     <img src="/assets/iit.jpeg" width="80">                     <img src="/microsoft.jpg" width="175">
+<img src="/assets/rose.png" width="250">                    <img src="/assets/ntu.png" width="250">                     <img src="/assets/iit.jpeg" width="80">                     <img src="assets/microsoft.jpg" width="175">
 
 
 * Deep learning and Computer Vision Intern at ROSE Labs NTU Singapore (May 2019- July 2019) 
