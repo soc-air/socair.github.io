@@ -26,16 +26,16 @@ Currently a Research Intern at ROSE Labs,NTU Singapore [ROSE Labs](https://rose.
 
 ### Teaching
 
-As a former president of UCLA's ACM AI group, I've presented/co-presented on the following topics (with slides attached).
+As a former president of AI/ML club at IIIT-Naya Raipur, I've presented/co-presented on the following topics
 
-* [ACM AI Intro Meeting](http://bit.ly/2xw2T18){:target="_blank"}
-* [Workshop #1: Linear Regression with Tensorflow](http://bit.ly/2hj5epX){:target="_blank"}
-* [Workshop #2: Logistic Regression with Tensorflow](http://bit.ly/2ybSdZW){:target="_blank"}
+* [Workshop #1: Linear Regression with Keras]{:target="_blank"}
+* [Workshop #2: Numpy and Kaggle]{:target="_blank"}
 * [Workshop #3: Pandas and Kaggle](http://bit.ly/2zN49gV){:target="_blank"}
-* [Workshop #4: Neural Networks with Tensorflow](http://bit.ly/2yqN2W9){:target="_blank"}
-* [Workshop #5: Multi Layer Neural Networks with Tensorflow](http://bit.ly/2zwwgUM){:target="_blank"}
-* [Workshop #6: Convolutional Neural Networks with Tensorflow](https://docs.google.com/presentation/d/12uEAa9Tpm660ggIVKtoPpyhVC_N41uVO5itMNsXA1Y8/edit?usp=sharing){:target="_blank"}
-* [Workshop #7: Recurrent Neural Networks with Tensorflow](https://docs.google.com/presentation/d/1MmU6mNhX0fuOE_z02bTtiXlgslRYSljuaU2OMatM7bg/edit?usp=sharing){:target="_blank"}
+* [Workshop #4: CNN with Tensorflow](http://bit.ly/2yqN2W9){:target="_blank"}
+* [Workshop #5: Multi Layer Neural Networks with Tensorflow]{:target="_blank"}
+* [Workshop #6: Convolutional Neural Networks with Tensorflow]{:target="_blank"}
+* [Workshop #7: Recurrent Neural Networks with Tensorflow]{:target="_blank"}
+* [Workshop #8: Crowd counting using CSRNet]{:target="_blank"}
 
 <img src="/assets/Workshop.jpg">
 
