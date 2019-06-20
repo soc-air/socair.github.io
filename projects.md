@@ -32,62 +32,58 @@ OpenCV based dimensional measurement of a book cover using Homography and Ratio 
     * Homography technique is used, feature detection, choosing the image of the QR code as the selected area.
 - **Link**: https://github.com/krshrimali/Dimensionality-Calculation-using-Homography-Matrix-and-QR-Code-Detection
 
-**Implementation of No Reference Image Quality Assessment using BRISQUE** (C++ and Python)
+[**Implementation of No Reference Image Quality Assessment using BRISQUE**](https://github.com/krshrimali/No-Reference-Image-Quality-Assessment-using-BRISQUE-Model) (C++ and Python)
 
 <img src="https://raw.githubusercontent.com/krshrimali/No-Reference-Image-Quality-Assessment-using-BRISQUE-Model/master/Images/Table_Comparison_BRISQUE.png"></img>
 
-Implementation of NR IQA Method (BRISQUE) in OpenCV using C++ and Python. The project uses LIBSVM and OpenCV libraries. NumPy is used for vectorization. **Link**: https://github.com/krshrimali/No-Reference-Image-Quality-Assessment-using-BRISQUE-Model
+Implementation of NR IQA Method (BRISQUE) in OpenCV using C++ and Python. The project uses LIBSVM and OpenCV libraries. NumPy is used for vectorization.
 
-**Template Matching, Cartoonification and more** (C++ and Python)
+[**Template Matching, Cartoonification and more**](https://github.com/krshrimali/OpenCV_Work/blob/master/Cartoonifier_Report.pdf) (C++ and Python)
 
 <img src="/assets/blog/cartoonified.PNG">
 
-Implementation of several OpenCV Algorithms like Template Matching and Cartoonification. [Report](https://github.com/krshrimali/OpenCV_Work/blob/master/Cartoonifier_Report.pdf) and [Code](https://github.com/krshrimali/OpenCV_Work) available on my GitHub.
+Implementation of several OpenCV Algorithms like Template Matching and Cartoonification. [Code](https://github.com/krshrimali/OpenCV_Work) available on my GitHub.
 
-**Deep Learning based Edge Detection** (Python)
+[**Deep Learning based Edge Detection**](https://github.com/krshrimali/Deep-Learning-based-Edge-Detection) (Python)
 
-<img src="https://raw.githubusercontent.com/krshrimali/Deep-Learning-based-Edge-Detection/master/testdata/comparison/output_flowers.png"></img>
+<img src="https://raw.githubusercontent.com/krshrimali/Deep-Learning-based-Edge-Detection/master/testdata/comparison/output_flowers.png" height="400">
 
-Deep Learning based Edge Detection using OpenCV's HED Implementation. [Code](https://github.com/krshrimali/Deep-Learning-based-Edge-Detection).
+Deep Learning based Edge Detection using OpenCV's HED Implementation.
 
 **Flask based Web App using OpenCV** (Python)
 
 Implementation of OpenCV's Thresholding and Grayscaling on Realtime webcam interface using Flask and OpenCV. Code to be released soon.
 
-**Panorama Image Stitching using OpenCV** (Python and C++)
+[**Panorama Image Stitching using OpenCV**](https://github.com/krshrimali/Panorama-Image-Stitching-using-OpenCV) (Python and C++)
 
-Panorama of two images using OpenCV. [Code](https://github.com/krshrimali/Panorama-Image-Stitching-using-OpenCV)
+Panorama of two images using OpenCV.
 
 Blogs
 ====================
-**PyTorch C++ API: Using PyTorch C++ API (VGG-16 Network on MNIST Dataset)**:
+[**PyTorch C++ API: Using PyTorch C++ API (VGG-16 Network on MNIST Dataset)**](https://krshrimali.github.io/PyTorch-C++-API/):
 
-I discuss about using PyTorch C++ API for Digit Recognition using MNIST Dataset. [Blog](https://krshrimali.github.io/PyTorch-C++-API/)
+I discuss about using PyTorch C++ API for Digit Recognition using MNIST Dataset.
 
-**What's so special about Gaussian Distribution?**
+[**What's so special about Gaussian Distribution?](https://krshrimali.github.io/Understanding-Gaussian-Distribution/):
 
 I discuss about Gaussian Distribution and it's implementation. 
 
 Video: https://www.youtube.com/watch?v=JaGEiePus-E&feature=youtu.be
-[Blog](https://krshrimali.github.io/Understanding-Gaussian-Distribution/)
 
 Guest Blogs
 ====================
-**Convex Hull using Python and C++**:
+[**Convex Hull using Python and C++**](https://www.learnopencv.com/convex-hull-using-opencv-in-python-and-c/):
 
-In this post, I explain how to find the Convex Hull of a shape (a group of points). I also explained the algorithm and then follow up with C++ and Python code implementation using OpenCV. [Blog](https://www.learnopencv.com/convex-hull-using-opencv-in-python-and-c/)
+In this post, I explain how to find the Convex Hull of a shape (a group of points). I also explained the algorithm and then follow up with C++ and Python code implementation using OpenCV.
 
-**SVM using Scikit-Learn in Python**:
+[**SVM using Scikit-Learn in Python**](https://www.learnopencv.com/svm-using-scikit-learn-in-python/):
 
-This post explains the implementation of Support Vector Machines (SVMs) using Scikit-Learn library in Python. [Blog](https://www.learnopencv.com/svm-using-scikit-learn-in-python/)
+This post explains the implementation of Support Vector Machines (SVMs) using Scikit-Learn library in Python.
 
-**Average Faces of FIFA World Cup 2018**:
+[**Average Faces of FIFA World Cup 2018**](https://www.learnopencv.com/average-faces-of-fifa-world-cup-2018/):
 
 <img src="https://www.learnopencv.com/wp-content/uploads/2018/06/fifa-players-with-country-names.png">Average Faces Generated</img>
-[Blog](https://www.learnopencv.com/average-faces-of-fifa-world-cup-2018/)
 
-**Image Quality Assessment using BRISQUE**:
+[**Image Quality Assessment using BRISQUE**](https://www.learnopencv.com/image-quality-assessment-brisque/):
 
-<img src="https://www.learnopencv.com/wp-content/uploads/2018/06/workflow-brisque-iqa.png"></img>
-
-[Blog](https://www.learnopencv.com/image-quality-assessment-brisque/)
+<img src="https://www.learnopencv.com/wp-content/uploads/2018/06/workflow-brisque-iqa.png">
