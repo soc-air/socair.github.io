@@ -3,17 +3,17 @@ layout: page
 title: About
 permalink: /about/
 ---
-Currently a SWE at [Forward](https://goforward.com/). UCLA CS '19
+Currently a Research Intern at ROSE Labs,NTU Singapore [Forward](https://rose.ntu.edu.sg/Pages/Home.aspx). May(2019)- July(2019)
 
 ### Internships
 
 <img src="/assets/clarifai.png" width="250">                    <img src="/assets/qualcomm.jpg" width="250">                     <img src="/assets/nrl.png" width="80">                     <img src="/assets/bu.gif" width="175">
 
 
-* Applied Machine Learning Intern at Clarifai (June 2018 - August 2018) 
-* Software Engineering Intern at Qualcomm (June 2017 - August 2017) 
-* Computer Engineer Intern at U.S Naval Research Lab (June 2016 - September 2016)
-* Research Intern in Boston RISE program (June 2014 - August 2014)
+* Deep learning and Computer Vision Intern at ROSE Labs NTU Singapore (May 2019- July 2019) 
+* Deep Learning Intern at IIT-Bombay (May 2018 - July 2018) 
+* Computer Vision Intern at Big Vision LLC, under Dr.Satya Mallick, interim CEO of OpenCV (May 2018 - May 2019)
+* Microsoft Technology Associate (2018)
 
 ### Experience
 <img src="/assets/oreily.png">                    <img src="/assets/acmai.png">                     <img src="/assets/specialo.jpg" >                                                                    
