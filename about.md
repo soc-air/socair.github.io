@@ -3,50 +3,32 @@ layout: page
 title: About
 permalink: /about/
 ---
-Currently a Research Intern at ROSE Labs,NTU Singapore [ROSE Labs](https://rose.ntu.edu.sg/Pages/Home.aspx). May(2019)- July(2019). A Computer Vision, deep learning and machine learning enthusiast.
+
+I'm a Senior Undergraduate at IIIT NR India (2016-20, B.Tech CSE). Currently interning at Rapid-Rich Object Search Labs (ROSE), NTU Singapore under [Prof. Alex Kot](http://research.ntu.edu.sg/expertise/academicprofile/pages/StaffProfile.aspx?ST_EMAILID=EACKOT). I've previously worked at Big Vision LLC and LearnOpenCV (under Dr. Satya Mallick, now Interim CEO OpenCV). I'm open to any opportunities in the field of Computer Vision and Deep Learning. 
 
 ### Internships
 
-<img src="/assets/rose.png" width="250">                    <img src="/assets/ntu.png" width="250">                     <img src="/assets/iit.jpeg" width="175">                     <img src="/assets/microsoft.jpg" width="200">
+<img src="/assets/rose.png" width="250">                    <img src="/assets/ntu.png" width="250">                     <img src="/assets/blog/IIITG.png" width="175">                     <img src="/assets/microsoft.jpg" width="200">
 
 
 * Deep learning and Computer Vision Intern at ROSE Labs NTU Singapore (May 2019- July 2019) 
-* Deep Learning Intern at IIT-Bombay (May 2018 - July 2018) 
-* Computer Vision Intern at Big Vision LLC, under Dr.Satya Mallick, interim CEO of OpenCV (May 2018 - May 2019)
-* Microsoft Technology Associate (2018)
+* Computer Vision and Machine Learning intern at Big Vision LLC and LearnOpenCV under Satya Mallick, now interim CEO of OpenCV (March 2018 - May 2019)
+* AI Intern at IIIT Gwalior under Prof. Anupam Shukla (Now Director, IIIT Pune). 
+* Microsoft Technology Associate (2018).
 
 ### Experience
 <img src="/assets/opencv.png" width="250">                    
 
-* OpenCV Contributer
-* President Artificial Intelligence/ML club IIIT-Naya Raipur.
-
-
-### Teaching
-
-As a former president of AI/ML club at IIIT-Naya Raipur, I've presented/co-presented on the following topics
-
-* [Workshop #1: Linear Regression with Keras]
-* [Workshop #2: Numpy and Kaggle]
-* [Workshop #3: Pandas and Kaggle]
-* [Workshop #4: CNN with Tensorflow]
-* [Workshop #5: Multi Layer Neural Networks with Tensorflow]
-* [Workshop #6: Convolutional Neural Networks with Tensorflow]
-* [Workshop #7: Recurrent Neural Networks with Tensorflow]
-* [Workshop #8: Crowd counting using CSRNet]
-
-<img src="/assets/club.jpg">
-
-### Books I'd Highly Recommend
-
-
-* *Emotional Agility* - Susan David
-* *Chasing the Scream* - Johann Hari
-* *The Elegant Universe* - Brian Greene
-* *Sapiens: A Brief History of Humankind* - Yuval Noah Harari 
-* *Out of Mao's Shadow: The Struggle for the Soul of a New China* - Philip P. Pan
-* *Just Mercy* - Bryan Stevenson
+* OpenCV Contributor for 2 Releases.
+    * To know more, check out the [projects section](https://krshrimali.github.io/krshrimali.github.io/projects/). 
+* Student Activity Center Science and Technology Head (2018-2019 Session). 
+    * Worked and led Techno-Cultural Fest as Technical Coordinator.
+    * The Society of Coders (TSoC) and Artificial Intelligence and Machine Learning (AIML) groups got a headstart during the session.
+* Student Ambassador, OpenStudy Inc. (2013-2016)
+    * Worked under Dr. Preetha Ram and Dr. Ashwin Ram (Now head of AI at Google).
+    * Led the team for 2 editions of OpenStudy Newsletter.
+* For Internships and work experience, check out my Resume. 
 
 ### Contact me
 
-[bapatkrutika@gmail.com](mailto:bapatkrutika@gmail.com)
+[kushashwaravishrimali@gmail.com](mailto:kushashwaravishrimali@gmail.com)
