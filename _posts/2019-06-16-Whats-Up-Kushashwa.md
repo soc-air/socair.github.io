@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's up Kushashwa?
-date: 2019-07-16
+date: 2019-06-16
 desc: "What am I upto?"
 keywords: "Updates, Achievements, Failures"
 categories: [ABOUT ME, BIO]
