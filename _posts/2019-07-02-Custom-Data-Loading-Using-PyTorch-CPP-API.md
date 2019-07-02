@@ -6,6 +6,8 @@ desc: "This blog talks about Custom Data Loading using PyTorch C++ API"
 keywords: "Blog, PyTorch C++, Custom Data Loading, Data-Loader, Dataset"
 categories: [Blog, PyTorch]
 tags: [Blog, Application]
+images:
+  - url: /assets/Cover-Custom-Data.png
 icon: icon-html
 ---
 
