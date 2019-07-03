@@ -7,7 +7,7 @@ keywords: "Blog, PyTorch C++, VGG, MNIST, Digit Recognition"
 categories: [Blog, PyTorch]
 tags: [Blog, Application]
 image: 
-    -url: /assets/Cover-Introduction-PyTorch.png
+    -url: /assets/blog/Cover-Introduction-PyTorch.png
 icon: icon-html
 ---
 **Note**: For code, please check out the repository here: 
