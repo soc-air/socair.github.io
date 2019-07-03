@@ -6,6 +6,8 @@ desc: "This blog talks about MNIST Digit Recognition using VGG-16 Network"
 keywords: "Blog, PyTorch C++, VGG, MNIST, Digit Recognition"
 categories: [Blog, PyTorch]
 tags: [Blog, Application]
+image: 
+    -url: /assets/Cover-Introduction-PyTorch.png
 icon: icon-html
 ---
 **Note**: For code, please check out the repository here: 
@@ -28,7 +30,7 @@ We'll use the `absolute` path of extracted directory (`libtorch`) later on.
 
 The VGG-16 Network is shown in the Figure below.
 
-![png](https://raw.githubusercontent.com/krshrimali/krshrimali.github.io/master/_posts/data/VGG-16-Architecture-resized.png)
+![png](/assets/blog/VGG-16-Architecture-resized.png)
 
 We'll start of by first including `libtorch` header file.
 
