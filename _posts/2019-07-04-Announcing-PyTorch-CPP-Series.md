@@ -6,6 +6,7 @@ desc: "A series of blogs on using and working with PyTorch C++ API. What happens
 keywords: "Blog, PyTorch C++, Series, Announcement"
 categories: [Blog, PyTorch]
 tags: [Blog, PyTorch]
+published: true
 images:
   - url: /assets/Announcement-PyTorch.png
 icon: icon-html
