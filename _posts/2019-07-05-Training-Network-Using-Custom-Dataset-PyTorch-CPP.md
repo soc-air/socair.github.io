@@ -7,6 +7,7 @@ keywords: "Blog, PyTorch, C++, Custom Data"
 categories: [Blog, PyTorch]
 tags: [Blog, PyTorch]
 published: true
+excerpt_separator: <!--more-->
 images:
   - url: /assets/Cover-Training-Network-Custom-Dataset.png
 icon: icon-html
@@ -16,6 +17,7 @@ icon: icon-html
 
 Before we move on, it's important what we covered in the last blog. We'll be going forward from loading Custom Dataset to now using the dataset to train our VGG-16 Network. Previously, we were able to load our custom dataset using the following template:
 
+<!--more-->
 **Note**: Those who are already aware of loading a custom dataset can skip this section.
 
 ```cpp
