@@ -5,10 +5,11 @@ date: 2019-07-05
 desc: "In this blog, we discuss about training a custom dataset using PyTorch C++ API"
 keywords: "Blog, PyTorch, C++, Custom Data"
 categories: [Blog, PyTorch]
-tags: [Blog, Application]
+tags: [Blog, PyTorch]
 published: true
 images:
   - url: /assets/Cover-Training-Network-Custom-Dataset.png
+icon: icon-html
 ---
 
 ## Recap of the last blog
