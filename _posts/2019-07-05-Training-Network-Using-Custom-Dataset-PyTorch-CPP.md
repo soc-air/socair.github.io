@@ -87,7 +87,7 @@ For the definition of this function: `torch::data::make_data_loader` [here](http
 Let's go ahead and learn to iterate through our data loader and pass each batch of data and labels to our network. For once, imagine that we have a `struct` named `Net` which defines our network and `forward()` function which parses the data through each layer and returns the output.
 
 ```cpp
-for(auto& batch: \*data_loader) {
+for(auto& batch: *data_loader) {
   auto data = batch.data;
   auto target = batch.target.squeeze();
 }
@@ -169,7 +169,7 @@ for(int epoch=1; epoch<=n_epochs; epoch++) {
     // Update the parameters
     optimizer.step();
 
-    cout << "Train Epoch: %d/%ld [%5ld/%5d] Loss: %.4f" << epoch << n_epochs << batch_index \* batch.data.size(0) << dataset_size << loss.item<float>() << endl;
+    cout << "Train Epoch: %d/%ld [%5ld/%5d] Loss: %.4f" << epoch << n_epochs << batch_index * batch.data.size(0) << dataset_size << loss.item<float>() << endl;
   }
 }
 
