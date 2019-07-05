@@ -7,6 +7,7 @@ keywords: "Blog, PyTorch C++, Series, Announcement"
 categories: [Blog, PyTorch]
 tags: [Blog, PyTorch]
 published: true
+excerpt_separator: <!--more-->
 images:
   - url: /assets/Announcement-PyTorch.png
 icon: icon-html
@@ -14,10 +15,13 @@ icon: icon-html
 
 Hi everyone! If you've been following my blog, you would have noticed a couple of PyTorch Blogs ([PyTorch C++ API: Installation and MNIST Digit Classification using VGG-16](https://krshrimali.github.io/PyTorch-C++-API/), [PyTorch C++ API: Using Custom Data](https://krshrimali.github.io/Custom-Data-Loading-Using-PyTorch-CPP-API/)). I initially started in a motive to help people getting started with, as there are not a lot of tutorials available on Libtorch (PyTorch C++ API).
 
+<!--more-->
+
 **I'm happy to announce a Series of Blog Posts on PyTorch C++ API**. Check out the blogs in the series here:
 
 1. [PyTorch C++ API: Installation and MNIST Digit Classification using VGG-16](https://krshrimali.github.io/PyTorch-C++-API/)
 2. [PyTorch C++ API: Using Custom Data](https://krshrimali.github.io/Custom-Data-Loading-Using-PyTorch-CPP-API/)
+3. [PyTorch C++ API: Using Custom Data to Train a Network](https://krshrimali.github.io/Training-Network-Using-Custom-Dataset-PyTorch-CPP/)
 
 **Note**: This page will be updated as soon as the next blog has arrived.
 
