@@ -120,7 +120,7 @@ torch::optim::Adam optimizer(net->parameters(), torch::optim::AdamOptions(1e-3))
 
 As mentioned in the documentation of `torch.optim` package:
 
-<img src="/assets/Use-Optim.PNG"/>
+<img src="https://raw.githubusercontent.com/krshrimali/krshrimali.github.io/master/assets/Use-Optim.PNG"/>
 
 The documentation is self explanatory, so all we need to do is pass parameters of our Network which will be optimized using our optimizer, and pass in the learning rate like above. To know about parameters we can pass through `AdamOptions`, check out this [documentation page](https://pytorch.org/cppdocs/api/structtorch_1_1optim_1_1_adam_options.html#exhale-struct-structtorch-1-1optim-1-1-adam-options).
 
