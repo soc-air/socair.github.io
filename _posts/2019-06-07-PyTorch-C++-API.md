@@ -18,8 +18,7 @@ icon: icon-html
 1. Download `libtorch`:
     - CPU Version: `wget https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-latest.zip -O libtorch.zip`
     - GPU Version (CUDA 9.0): `wget https://download.pytorch.org/libtorch/cu90/libtorch-shared-with-deps-latest.zip -O libtorch.zip`
-    
-    Note: CUDA 10.0 is currently not supported for libtorch. 
+    - GPU Version (CUDA 10.0): `wget https://download.pytorch.org/libtorch/cu100/libtorch-shared-with-deps-latest.zip`
 
 2. Unzip `libtorch.zip`:
     - `unzip libtorch.zip`
