@@ -289,7 +289,7 @@ Let's wrap up the code!
 #include <string>
 
 /* Convert and Load image to tensor from location argument */
-torch::Tensor read_data(std::string location) {
+torch::Tensor read_data(std::string loc) {
   // Read Data here
   // Return tensor form of the image
   cv::Mat img = cv::imread(loc, 1);
