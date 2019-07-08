@@ -18,8 +18,8 @@ In the last blog, we discussed application of a VGG-16 Network on MNIST Data. Fo
 
 ```cpp
 auto data_loader = torch::data::make_data_loader<torch::data::samplers::SequentialSampler>(
-			std::move(torch::data::datasets::MNIST("../../data").map(torch::data::transforms::Normalize<>(0.13707, 0.3081)).map(
-				torch::data::transforms::Stack<>())), 64);
+			std::move(torch::data::datasets::MNIST("../../data").map(torch::data::transforms::Normalize<>(0.13707, 0.3081))).map(
+				torch::data::transforms::Stack<>()), 64);
 ```
 
 Let's break this piece by piece, as for beginners, this may be unclear. First, we ask the C++ API to load data (images and labels) into tensors.
