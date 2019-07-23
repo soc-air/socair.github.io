@@ -7,8 +7,9 @@ keywords: "Blog, PyTorch C++, Custom Data Loading, Data-Loader, Dataset"
 categories: [Blog, PyTorch]
 tags: [Blog, Tutorial]
 published: true
+excerpt_separator: <!--more-->
 images:
-  - url: /assets/Cover-Dogs-Cats.png
+  - url: /assets/Cover-Dogs-Cats.jpg
 icon: icon-html
 ---
 
@@ -26,8 +27,8 @@ The training set contains 25k images combined of dogs and cats. The data can be 
 
 Let's have a look at sample of the data:
 
-<img src="assets/dogs-dataset.jpg">Figure 1: Sample of Dog Images in the Dataset</img>
-<img src="assets/cats-dataset.jpg">Figure 2: Sample of Cat Images in the Dataset</img>
+<img src="/assets/dogs-dataset.jpg">Figure 1: Sample of Dog Images in the Dataset</img>
+<img src="/assets/cats-dataset.jpg">Figure 2: Sample of Cat Images in the Dataset</img>
 
 As we can see, the dataset contains images of cats and dogs with multiple instances in the same sample as well.
 
