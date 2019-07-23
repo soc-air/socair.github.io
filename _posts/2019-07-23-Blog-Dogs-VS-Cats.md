@@ -29,8 +29,8 @@ The training set contains 25k images combined of dogs and cats. The data can be 
 
 Let's have a look at sample of the data:
 
-<img src="/assets/dogs-dataset.jpg">Figure 1: Sample of Dog Images in the Dataset</img>
-<img src="/assets/cats-dataset.jpg">Figure 2: Sample of Cat Images in the Dataset</img>
+<img src="/assets/dogs-dataset.jpg">Figure 1: Sample of Dog Images in the Dataset
+<img src="/assets/cats-dataset.jpg">Figure 2: Sample of Cat Images in the Dataset
 
 As we can see, the dataset contains images of cats and dogs with multiple instances in the same sample as well.
 
