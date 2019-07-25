@@ -6,7 +6,7 @@ desc: "This blog talks about classifying Dogs and Cats using PyTorch C++ API"
 keywords: "Blog, PyTorch C++, Custom Data Loading, Data-Loader, Dataset"
 categories: [Blog, PyTorch]
 tags: [Blog, Tutorial]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Cover-Dogs-Cats.jpg
