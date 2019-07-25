@@ -6,9 +6,12 @@ desc: "What am I upto?"
 keywords: "Updates, Achievements, Failures"
 categories: [ABOUT ME, BIO]
 tags: [ABOUT ME, Updates, Achievements, Failures]
+excerpt_separator: <!--more-->
+image: 
+    -url: /assets/Cover-Whatsup-Kushashwa.png
 icon: icon-html
 ---
-
+<!--more-->
 Internship and Work Experience: 
 
 * Bagged Internship at **IIITM Gwalior** under Dr. Anupam Shukla (now Director,
