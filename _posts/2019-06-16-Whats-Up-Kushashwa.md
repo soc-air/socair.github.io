@@ -11,9 +11,8 @@ image:
     -url: /assets/Cover-Whatsup-Kushashwa.png
 icon: icon-html
 ---
+## Internship and Work Experience
 <!--more-->
-Internship and Work Experience: 
-
 * Bagged Internship at **IIITM Gwalior** under Dr. Anupam Shukla (now Director,
   IIIT Pune, then Dean Academics, IIITM Gwalior). 
     * Duration: 1 Month, December 2017
