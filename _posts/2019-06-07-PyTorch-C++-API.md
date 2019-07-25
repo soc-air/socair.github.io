@@ -6,9 +6,11 @@ desc: "This blog talks about MNIST Digit Recognition using VGG-16 Network"
 keywords: "Blog, PyTorch C++, VGG, MNIST, Digit Recognition"
 categories: [Blog, PyTorch]
 tags: [Blog, Application]
+excerpt_separator: <!--more-->
 image: 
-    -url: /assets/blog/Cover-Introduction-PyTorch.png
+    -url: /assets/Cover-Introduction-PyTorch.png
 icon: icon-html
+<!--more-->
 ---
 **Note**: For code, please check out the repository here: 
 # Environment Setup [Ubuntu 16.04, 18.04]
