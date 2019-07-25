@@ -10,8 +10,8 @@ excerpt_separator: <!--more-->
 image: 
     -url: /assets/Cover-Introduction-PyTorch.png
 icon: icon-html
-<!--more-->
 ---
+<!--more-->
 **Note**: For code, please check out the repository here: 
 # Environment Setup [Ubuntu 16.04, 18.04]
 
