@@ -11,10 +11,8 @@ image:
     -url: /assets/Cover-Introduction-PyTorch.png
 icon: icon-html
 ---
-<!--more-->
-**Note**: For code, please check out the repository here: 
 # Environment Setup [Ubuntu 16.04, 18.04]
-
+<!--more-->
 *Note: If you have already finished installing PyTorch C++ API, please skip this section.*
 
 1. Download `libtorch`:
