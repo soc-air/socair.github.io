@@ -7,8 +7,8 @@ keywords: "Updates, Achievements, Failures"
 categories: [ABOUT ME, BIO]
 tags: [ABOUT ME, Updates, Achievements, Failures]
 excerpt_separator: <!--more-->
-image: 
-    -url: /assets/Cover-Whatsup-Kushashwa.png
+images: 
+    - url: /assets/Cover-Whatsup-Kushashwa.png
 icon: icon-html
 ---
 ## Internship and Work Experience
