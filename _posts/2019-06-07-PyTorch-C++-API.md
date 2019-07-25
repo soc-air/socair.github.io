@@ -7,8 +7,8 @@ keywords: "Blog, PyTorch C++, VGG, MNIST, Digit Recognition"
 categories: [Blog, PyTorch]
 tags: [Blog, Application]
 excerpt_separator: <!--more-->
-image: 
-    -url: /assets/Cover-Introduction-PyTorch.png
+images: 
+    - url: /assets/Cover-Introduction-PyTorch.png
 icon: icon-html
 ---
 # Environment Setup [Ubuntu 16.04, 18.04]
