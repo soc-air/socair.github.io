@@ -310,7 +310,7 @@ Let's look at some of the correct and wrong predictions.
 
 ## Wrong Predictions (Dogs)
 
-![Wrong Predictions of Dogs](/assets/Wrong-Predictions-Dogs.png)
+![Wrong Predictions of Dogs](/assets/Wrong-Predictions-Dog.png)
 
 ## Wrong Predictions (Cats)
 
