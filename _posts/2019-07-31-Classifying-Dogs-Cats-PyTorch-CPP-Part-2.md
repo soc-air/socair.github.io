@@ -184,26 +184,11 @@ Let's discuss steps of training a CNN on our dataset:
 		auto data = batch.data;
 		auto target = batch.target.squeeze();
 		```
-	2. Clear gradients of optimizer:
-		```cpp
-		optimizer.zero_grad()
-		```
-	3. Forward pass the batch of data to the network:
-		```cpp
-		auto output = net->forward(data);
-		```
-	4. Calculate Negative Log Likelihood loss (since we use `log_softmax()` layer at the end):
-		```cpp
-		auto loss = torch::nll_loss(output, target); 
-		```
-	5. Backpropagate Loss:
-		```cpp
-		loss.backward()
-		```
-	6. Update the weights:
-		```cpp
-		optimizer.step();
-		```
+	2. Clear gradients of optimizer: `optimizer.zero_grad()`
+	3. Forward pass the batch of data to the network: `auto output = net->forward(data);`
+	4. Calculate Negative Log Likelihood loss (since we use `log_softmax()` layer at the end): `auto loss = torch::nll_loss(output, target);`
+	5. Backpropagate Loss: `auto loss = loss.backward()`
+	6. Update the weights: `optimizer.step();`
 	7. Calculate Training Accuracy and Mean Squared Error:
 		```cpp
 		auto acc = output.argmax(1).eq(target).sum();
