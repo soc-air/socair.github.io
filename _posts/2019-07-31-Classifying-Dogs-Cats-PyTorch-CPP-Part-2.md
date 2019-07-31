@@ -16,6 +16,8 @@ In the last blog, we had discussed all but training and results of our custom CN
 
 <!--more-->
 
+![Cover Pic](/assets/Classify-Dogs-Cats-Blog-05.jpg)
+
 I'll start with the network overview again, where we used a network similar to VGG-16 (with one extra Fully Connected Layer in the end). While there are absolutely no problems with that network, but since the dataset contains a lot of images (25000 in training dataset) and we were using (200x200x3) input shape to the network (which is 120,000 floating point numbers), this leads to high memory consumption. In short, I was out of RAM to store these many images during program execution. 
 
 So, I decided to change some minute things:
