@@ -6,7 +6,7 @@ desc: "This is the Part 2 in series of blogs of classifying Dogs vs Cats using P
 keywords: "Blog, PyTorch, C++, Custom Data"
 categories: [Blog, PyTorch]
 tags: [Blog, PyTorch]
-published: true
+published: false
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Classify-Dogs-Cats-Blog-05.jpg
