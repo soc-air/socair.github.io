@@ -6,7 +6,7 @@ desc: "This is the Part 2 in series of blogs of classifying Dogs vs Cats using P
 keywords: "Blog, PyTorch, C++, Custom Data"
 categories: [Blog, PyTorch]
 tags: [Blog, PyTorch]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Classify-Dogs-Cats-Blog-05.jpg
@@ -129,17 +129,17 @@ struct NetworkImpl : public torch::nn::Module {
 		conv2_1 = register_module("conv2", torch::nn::Conv2d(torch::nn::Conv2dOptions(50, 100, 7).stride(2)));
 
 		// Used to find the output size till previous convolutional layers
-        n(get_output_shape(channels, height, width));
+		n(get_output_shape(channels, height, width));
 
-        fc1 = register_module("fc1", torch::nn::Linear(n, 120));
-        fc2 = register_module("fc2", torch::nn::Linear(120, 100));
-        fc3 = register_module("fc3", torch::nn::Linear(100, 2));
+		fc1 = register_module("fc1", torch::nn::Linear(n, 120));
+		fc2 = register_module("fc2", torch::nn::Linear(120, 100));
+		fc3 = register_module("fc3", torch::nn::Linear(100, 2));
 
-        register_module("conv1", conv1);
-        register_module("conv2", conv2);
-	    register_module("fc1", fc1);
-        register_module("fc2", fc2);
-        register_module("fc3", fc3);
+		register_module("conv1", conv1);
+		register_module("conv2", conv2);
+		register_module("fc1", fc1);
+		register_module("fc2", fc2);
+		register_module("fc3", fc3);
     }
 
     // Implement forward pass of each batch to the network
@@ -295,8 +295,8 @@ I trained my network on the dataset for 100 Epochs.
 
 The best training and testing accuracies are given below:
 
-1. Best Training Accuracy; 99.82%
-2. Best Testing Accuracy: 82.43%
+1. **Best Training Accuracy:** 99.82%
+2. **Best Testing Accuracy:** 82.43%
 
 Let's look at some of the correct and wrong predictions. 
 
