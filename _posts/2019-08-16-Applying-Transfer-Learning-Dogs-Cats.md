@@ -15,13 +15,13 @@ icon: icon-html
 
 ## Transfer Learning
 
-<img src="/assets/Cover-Transfer-Learning.jpg"/>
-
 Before we go ahead and discuss the **Why** question of Transfer Learning, let's have a look at **What is Transfer Learning?** Let's have a look at the <a href="http://cs231n.github.io/transfer-learning/">Notes</a> from CS231n on Transfer Learning:
 
 <!--more-->
 
 > In practice, very few people train an entire Convolutional Network from scratch (with random initialization), because it is relatively rare to have a dataset of sufficient size. Instead, it is common to pretrain a ConvNet on a very large dataset (e.g. ImageNet, which contains 1.2 million images with 1000 categories), and then use the ConvNet either as an initialization or a fixed feature extractor for the task of interest.
+
+<img src="/assets/Cover-Transfer-Learning.jpg"/>
 
 There are 3 scenarios possible:
 
