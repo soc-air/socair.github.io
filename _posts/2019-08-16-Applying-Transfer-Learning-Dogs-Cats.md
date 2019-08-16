@@ -101,19 +101,19 @@ data_loader = torch.utils.data.DataLoader(dataset=data, batch_size = batch_size,
 
 The steps to load the pre-trained model and perform Transfer Learning are listed below:
 
-1. Download the pre-trained model of ResNet18.
+1. Download the pre-trained model of **ResNet18**.
 2. Load pre-trained model.
 3. Change output features of the final FC layer of the model loaded. (Number of classes would change from 1000 - ImageNet to 2 - Dogs vs Cats).
 4. Define optimizer on parameters from the final FC layer to be trained.
-5. Train the FC layer on Dogs vs Cats dataset
-5. Save the model (#TODO)
+5. Train the FC layer on Dogs vs Cats dataset.
+5. Save the model.
 
 Let's go step by step.
 
-**Step-1**: Download the pre-trained model of ResNet18
+### Step-1: Download the pre-trained model of ResNet18
 
 Thanks to the developers, we do have C++ models available in torchvision
-(https://github.com/pytorch/vision/pull/728) but for this tutorial, transferring the pre- trained model from Python to C++ using torch.jit is a good idea, as most PyTorch models in the wild are written in Python right now, and people can use this tutorial to learn how to trace their Python model and transfer it to C++.)
+(https://github.com/pytorch/vision/pull/728) but for this tutorial, transferring the pre- trained model from Python to C++ using torch.jit is a good idea, as most PyTorch models in the wild are written in Python right now, and people can use this tutorial to learn how to trace their Python model and transfer it to C++.
 
 First we download the pre-trained model and save it in the form of `torch.jit.trace` format to our local drive. 
 
@@ -137,7 +137,7 @@ script_module.save('resnet18_without_last_layer.pt')
 
 We will be using `resnet18_without_last_layer.pt` model file as our pre-trained model for transfer learning. 
 
-**Step-2**: Load the pre-trained model
+### Step-2: Load the pre-trained model
 
 Let's go ahead and load the pre-trained model using `torch::jit` module. Note that the reason we have converted `torch.nn.Module` to `torch.jit.ScriptModule` type, is because C++ API currently does not support loading Python `torch.nn.Module` models directly.
 
@@ -148,7 +148,7 @@ torch::jit::script::Module module;
 // argv[1] should be the path to the model
 module = torch::jit::load(argv[1]); 
 
-// We need to convert last layer input and output features from (512, 1000) to (512, 2) since we only have 2 classes
+/* We need to convert last layer input and output features from (512, 1000) to (512, 2) since we only have 2 classes */
 torch::nn::Linear linear_layer(512, 2);
 
 // Define the optimizer on parameters of linear_layer with learning_rate = 1e-3
@@ -176,7 +176,7 @@ cost = torch.nn.CrossEntropyLoss()
 
 Let's first have a look at ResNet18 Network Architecture
 
-<img src="/assets/ResNet18-Architecture.png">Reference: https://www.researchgate.net/figure/ResNet-18-Architecture_tbl1_322476121</img>
+<img src="/assets/ResNet18-Architecture.png"/><center>https://www.researchgate.net/figure/ResNet-18-Architecture_tbl1_322476121</center>
 
 The final step is to train the Fully Connected layer that we inserted at the end of the network (`linear_layer`). This one should be pretty straight forward, let's see how to do it.
 
@@ -277,8 +277,8 @@ The code to test should also not change much except the need of optimizer.
 
 ## Results
 
-<img src="/assets/Training-Results.png">Results using PyTorch C++ API</img>
-<img src="/assets/Training-Results-Python.png">Results using PyTorch in Python</img>
+<img src="/assets/Training-Results.png"/><center>Results using PyTorch C++ API</center>
+<img src="/assets/Training-Results-Python.png"/><center>Results using PyTorch in Python</center>
 
 On a set of 400 images for training data, the maximum training Accuracy I could achieve was 91.25% in just less than 15 epochs using PyTorch C++ API and 89.0% using Python. (Note that this doesn't conclude superiority in terms of accuracy between any of the two backends - C++ or Python)
 
@@ -298,7 +298,7 @@ Let's have a look at correct and wrong predictions.
 
 ## Acknowledgements
 
-I would like to thank a few people to help me bring this out to the community. Thanks to Piotr (https://github.com/ptrblck) for his comments and answers in the PyTorch Discussion forum. Thanks to Will Feng (https://github.com/yf225) for reviewing the blog and the code and also his constant motivation to bring this out to you all. Would like to thank my constant motivation behind all my work, Vishwesh Ravi Shrimali (https://github.com/vishwesh5) for all his help to start with PyTorch C++ API and help the community. Special thanks to Krutika Bapat (https://github.com/krutikabapat) as well, for reviewing the Python equivalent code and suggesting modifications.
+I would like to thank a few people to help me bring this out to the community. Thanks to [Piotr](https://github.com/ptrblck) for his comments and answers in the PyTorch Discussion forum. Thanks to [Will Feng](https://github.com/yf225) for reviewing the blog and the code and also his constant motivation to bring this out to you all. Would like to thank my constant motivation behind all my work, [Vishwesh Ravi Shrimali](https://github.com/vishwesh5) for all his help to start with PyTorch C++ API and help the community. Special thanks to [Krutika Bapat](https://github.com/krutikabapat) as well, for reviewing the Python equivalent code and suggesting modifications.
 
 And shout out to all the readers, please share your feedback with me in the comments below. I would love to hear if this blog helped you! 
 
