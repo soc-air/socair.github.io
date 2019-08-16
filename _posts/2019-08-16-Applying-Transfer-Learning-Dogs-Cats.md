@@ -6,7 +6,7 @@ desc: "In this blog, we discuss about applying transfer learning on Dogs vs Cats
 keywords: "Blog, PyTorch, C++, Custom Data, Transfer Learning, ResNet18"
 categories: [Blog, PyTorch]
 tags: [Blog, PyTorch]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Cover-Transfer-Learning.jpg
@@ -14,6 +14,8 @@ icon: icon-html
 ---
 
 ## Transfer Learning
+
+<img src="/assets/Cover-Transfer-Learning.jpg"/>
 
 Before we go ahead and discuss the **Why** question of Transfer Learning, let's have a look at **What is Transfer Learning?** Let's have a look at the <a href="http://cs231n.github.io/transfer-learning/">Notes</a> from CS231n on Transfer Learning:
 
