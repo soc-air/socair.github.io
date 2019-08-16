@@ -63,8 +63,10 @@ Once done, we can initialize the `CustomDataset` class:
 **C++**
 
 ```cpp
-std::vector<std::string> list_images; // list of images of Dogs and Cats, use load_data_from_folder function explained in previous blogs
-std::vector<int> list_labels; // list of labels of the images
+// List of images of Dogs and Cats, use load_data_from_folder function explained in previous blogs
+std::vector<std::string> list_images; 
+// List of labels of the images
+std::vector<int> list_labels; 
 auto custom_dataset = CustomDataset(list_images, list_labels).map(torch::data::transforms::Stack<>());
 ```
 
@@ -143,7 +145,8 @@ Let's go ahead and load the pre-trained model using `torch::jit` module. Note th
 
 ```cpp
 torch::jit::script::Module module;
-module = torch::jit::load(argv[1]); // argv[1] should be the path to the model
+// argv[1] should be the path to the model
+module = torch::jit::load(argv[1]); 
 
 // We need to convert last layer input and output features from (512, 1000) to (512, 2) since we only have 2 classes
 torch::nn::Linear linear_layer(512, 2);
