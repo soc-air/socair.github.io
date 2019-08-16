@@ -56,7 +56,7 @@ At every stage, we will compare the Python and C++ codes to do the same thing, t
 
 Starting with loading the dataset, as discussed in the blogs before, I'll just post a flow chart of procedure.
 
-<img src="/assets/Steps-Loading-Data-PyTorch.png"></img>
+<img src="/assets/Steps-Loading-Data-PyTorch.png"/>
 
 Once done, we can initialize the `CustomDataset` class:
 
@@ -295,6 +295,8 @@ Let's have a look at correct and wrong predictions.
 
 ## Acknowledgements
 
-I would like to thank a few people to help me bring this out to the community. Thanks to Piotr (https://github.com/ptrblck) for his comments and answers in the PyTorch Discussion forum. Thanks to Will Feng (https://github.com/yf225) for reviewing the blog and the code and also his constant motivation to bring this out to you all. Would like to thank my constant motivation behind all my work, Vishwesh Ravi Shrimali (https://github.com/vishwesh5) for all his help to start with PyTorch C++ API and help the community. And shout out to all the readers, please share your feedback with me in the comments below. I would love to hear if this blog helped you! 
+I would like to thank a few people to help me bring this out to the community. Thanks to Piotr (https://github.com/ptrblck) for his comments and answers in the PyTorch Discussion forum. Thanks to Will Feng (https://github.com/yf225) for reviewing the blog and the code and also his constant motivation to bring this out to you all. Would like to thank my constant motivation behind all my work, Vishwesh Ravi Shrimali (https://github.com/vishwesh5) for all his help to start with PyTorch C++ API and help the community. Special thanks to Krutika Bapat (https://github.com/krutikabapat) as well, for reviewing the Python equivalent code and suggesting modifications.
+
+And shout out to all the readers, please share your feedback with me in the comments below. I would love to hear if this blog helped you! 
 
 In the upcoming blog, I'll be sharing something very exciting. Till then, happy learning!
