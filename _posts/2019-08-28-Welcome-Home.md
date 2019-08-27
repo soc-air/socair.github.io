@@ -35,19 +35,19 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
 
 ## Research Interests
 	
-	- Deep Learning and Computer Vision
-		* Optimization and Pruning
-		* Software Development
-		* Generative Adversarial Networks
-		* Reinforcement Learning
-		* Object Detection and Image Analysis
+- Deep Learning and Computer Vision
+	* Optimization and Pruning
+	* Software Development
+	* Generative Adversarial Networks
+	* Reinforcement Learning
+	* Object Detection and Image Analysis
 
 ## Skills
 	
-	* **Programming Language:** Python, C++, JS, C, Shell Script
-	* **Tools:** LaTeX, Git, MATLAB, Jupyter
-	* **Frameworks:** OpenCV, PyTorch
-	* **Libraries:** NumPy, Matplotlib, scikit-learn, OpenCV, PyTorch, Keras, Tensorflow, Processing
+* **Programming Language:** Python, C++, JS, C, Shell Script
+* **Tools:** LaTeX, Git, MATLAB, Jupyter
+* **Frameworks:** OpenCV, PyTorch
+* **Libraries:** NumPy, Matplotlib, scikit-learn, OpenCV, PyTorch, Keras, Tensorflow, Processing
 
 ## Non-Academic Interests and Achievements
 
