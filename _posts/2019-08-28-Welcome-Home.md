@@ -7,6 +7,7 @@ keywords: "Blog, PyTorch, C++, Xeus Cling, Jupyter, Notebook, Libtorch, OpenCV"
 categories: [Blog]
 tags: [Blog]
 published: true
+blog: Home
 images:
   - url: /assets/Cover-Home.jpg
 icon: icon-html
