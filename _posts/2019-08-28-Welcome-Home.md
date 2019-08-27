@@ -42,6 +42,8 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
 	* Generative Adversarial Networks
 	* Reinforcement Learning
 	* Object Detection and Image Analysis
+- Development
+	* Open Source Framework Development in Libraries: PyTorch, OpenCV, NumPy
 
 ## Skills
 	
