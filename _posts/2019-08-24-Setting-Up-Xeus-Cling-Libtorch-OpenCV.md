@@ -29,7 +29,7 @@ It's pretty straight forward to install Xeus Cling using Anaconda. I'm assuming 
 
 `conda install -c conda-forge xeus-cling`
 
-The conventional way to install any such library which can create conflicts with existing libraries, is to create an environment and then install it in the environment.
+Highly recommended way to install any such library which can create conflicts with existing libraries, is to create an environment and then install it in the environment. 
 
 ```
 conda create -n cpp-xeus-cling
@@ -206,7 +206,18 @@ Let's go ahead and include the libraries.
 
 After successfully importing libraries, we can define functions, write code and use the utilities Jupyter provides. For testing, I have implemented Transfer Learning example that we discussed in the <a href="https://krshrimali.github.io/Applying-Transfer-Learning-Dogs-Cats/">previous blog</a>. 
 
-<img src="/assets/Training-Image.png"/>
+1. **ATen**
+
+<img src="/assets/ATen-Example.png"/>
+
+2. **Autograd**
+
+<img src="/assets/Autograd-Example-1.png"/>
+<img src="/assets/Autograd-Example-2.png"/>
+
+Using `Libtorch` in Xeus-Cling can be widely utilized to debug the code we write. For example, when writing a function, you can just run the cell and know if there is any syntax/logical error.
+
+<img src="/assets/Debug-Example.png"/>
 
 With this blog, I'm also happy to share a Notebook file with implementation of Transfer Learning using ResNet18 Model on Dogs vs Cats Dataset. The source code for Transfer Learning and the Notebook file can be found <a href="https://github.com/krshrimali/Transfer-Learning-Dogs-Cats-Libtorch.git">here</a>.
 
