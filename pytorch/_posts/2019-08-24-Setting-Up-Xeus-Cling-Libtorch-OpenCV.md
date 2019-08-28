@@ -219,7 +219,7 @@ One of the reasons why `Xeus-Cling` is useful is, that you can print the outputs
 
 For those who don't know, automatic differentiation is the most important function of Deep Learning algorithms to backpropagte the loss we calculate.
 
-<img src="/assets/Autograd-Example-1.png/"/>
+<img src="/assets/Autograd-Example-1.png"/>
 <img src="/assets/Autograd-Example-2.png"/>
 
 How about debugging? As you can see in the figure below, I get an error stating `no member named 'size' in namespace 'cv'`. This is because namespace `cv` has member called `Size` and not `size`. 
