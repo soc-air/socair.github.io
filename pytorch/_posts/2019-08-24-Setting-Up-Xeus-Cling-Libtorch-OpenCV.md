@@ -30,20 +30,13 @@ Just like we use Python Kernel in the Jupyter Notebook, we can also use a C++ ba
 
 ## Installing Xeus Cling using Anaconda
 
-It's pretty straight forward to install Xeus Cling using Anaconda. I'm assuming the user has Anaconda installed.
-
-```sh
-conda install -c conda-forge xeus-cling
-```
+It's pretty straight forward to install Xeus Cling using Anaconda. I'm assuming the user has Anaconda installed.  Use this command to install `Xeus Cling` using Anaconda: `conda install -c conda-forge xeus-cling`.
 
 The conventional way to install any such library which can create conflicts with existing libraries, is to create an environment and then install it in the environment.
 
-```sh
-conda create -n cpp-xeus-cling
-source activate cpp-xeus-cling
-
-conda install -c conda-forge xeus-cling
-```
+1. Create a `conda` environment: `conda create -n cpp-xeus-cling`.
+2. Activate the environment you just created: `source activate cpp-xeus-cling`.
+3. Install `xeus-cling` using `conda`: `conda install -c conda-forge xeus-cling`.
 
 Once setup, let's go ahead and get started with Jupyter Notebook. When creating a new notebook, you will see different options for the kernel. One of them would be `C++XX` where XX is the `C++` version. 
 
