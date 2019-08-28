@@ -22,7 +22,6 @@ Computer Vision Projects
 
 1. **Dimensionality-Calculation-using-Homography-Matrix-and-QR-Code-Detection** (C++ and Python)
     - OpenCV based dimensional measurement of a book cover using Homography and Ratio comparison.
-
     - **What it does?**: Approximation of the dimensions of a cover page of a book using techniques: Homography Algorithms, (QR Code Detection using Zbar). 
     - **How it does?**: QR Code generation using any online web service. [Example: https://www.qr-code-generator.com/]
        * Detection of the QR Code and Text generation [encoded in the QR code - assuming text or any hyperlink etc.] using zbar module in Python. Credits: learnopencv.com
@@ -33,17 +32,14 @@ Computer Vision Projects
 2. [**Implementation of No Reference Image Quality Assessment using BRISQUE**](https://github.com/krshrimali/No-Reference-Image-Quality-Assessment-using-BRISQUE-Model) (C++ and Python)
 
     - <img src="https://raw.githubusercontent.com/krshrimali/No-Reference-Image-Quality-Assessment-using-BRISQUE-Model/master/Images/Table_Comparison_BRISQUE.png"/>
-
     - Implementation of NR IQA Method (BRISQUE) in OpenCV using C++ and Python. The project uses LIBSVM and OpenCV libraries. NumPy is used for vectorization.
 3. [**Template Matching, Cartoonification and more**]                   (https://github.com/krshrimali/OpenCV_Work/blob/master/Cartoonifier_Report.pdf) (C++ and Python)
 
     - <img src="/assets/blog/cartoonified.PNG"/>
-
     - Implementation of several OpenCV Algorithms like Template Matching and Cartoonification. [Code](https://github.com/krshrimali/OpenCV_Work) available on my GitHub.
 4. [**Deep Learning based Edge Detection**](https://github.com/krshrimali/Deep-Learning-based-Edge-Detection) (Python)
 
     - <img src="https://raw.githubusercontent.com/krshrimali/Deep-Learning-based-Edge-Detection/master/testdata/comparison/output_flowers.png" height="400"/>
-
     - Deep Learning based Edge Detection using OpenCV's HED Implementation.
 5. **Flask based Web App using OpenCV** (Python)
 
@@ -54,8 +50,7 @@ Computer Vision Projects
 
 Blogs
 ====================
-1. [**PyTorch C++ API: Using PyTorch C++ API (VGG-16 Network on MNIST Dataset)**](https://krshrimali.github.io/PyTorch-C++-
-API/)
+1. [**PyTorch C++ API: Using PyTorch C++ API using VGG-16 Network on MNIST Dataset**](https://krshrimali.github.io/PyTorch-C++-API/)
 2. [**Custom Data Loading using PyTorch C++ API**](https://krshrimali.github.io/Custom-Data-Loading-Using-PyTorch-CPP-API/)
 3. [**Training a Network on Custom Dataset using PyTorch C++ API**](https://krshrimali.github.io/Training-Network-Using-Custom-Dataset-PyTorch-CPP/)
 4. [**Classifying Dogs vs Cats using PyTorch C++ API: Part-1**](https://krshrimali.github.io/Blog-Dogs-VS-Cats/)
