@@ -30,13 +30,13 @@ Just like we use Python Kernel in the Jupyter Notebook, we can also use a C++ ba
 
 It's pretty straight forward to install Xeus Cling using Anaconda. I'm assuming the user has Anaconda installed.
 
-```
+```shell
 conda install -c conda-forge xeus-cling
 ```
 
 The conventional way to install any such library which can create conflicts with existing libraries, is to create an environment and then install it in the environment.
 
-```
+```shell
 conda create -n cpp-xeus-cling
 source activate cpp-xeus-cling
 
