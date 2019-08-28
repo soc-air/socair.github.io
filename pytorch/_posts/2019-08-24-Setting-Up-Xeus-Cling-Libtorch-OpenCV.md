@@ -205,11 +205,43 @@ Let's go ahead and include the libraries.
 
 <img src="/assets/Include-Libraries.png"/>
 
-After successfully importing libraries, we can define functions, write code and use the utilities Jupyter provides. For testing, I have implemented Transfer Learning example that we discussed in the <a href="https://krshrimali.github.io/Applying-Transfer-Learning-Dogs-Cats/">previous blog</a>. 
+After successfully importing libraries, we can define functions, write code and use the utilities Jupyter provides. Let's start with playing with Tensors and the code snippets mentioned in the official <a href="https://pytorch.org/cppdocs/"><PyTorch C++ Frontend Docs</a>.
+
+Starting with using `ATen` tensor library. We'll create two tensors and add them together. `ATen` comes up with functionalities of mathematical operations on the Tensors. 
+
+<img src="/assets/ATen-Example.png"/>
+
+One of the reasons why `Xeus-Cling` is useful is, that you can print the outputs of intermediate steps and debug. Let's go ahead and experiment with `Autograd` system of PyTorch C++ API.
+
+For those who don't know, automatic differentiation is the most important function of Deep Learning algorithms to backpropagte the loss we calculate.
+
+<img src="/assets/Autograd-Example-1.png/"/>
+<img src="/assets/Autograd-Example-2.png"/>
+
+How about debugging? As you can see in the figure below, I get an error stating `no member named 'size' in namespace 'cv'`. This is because namespace `cv` has member called `Size` and not `size`. 
+
+<img src="/assets/Debug-Example.png"/>
+
+To solve, we can simply change the member from `size` to `Size`. One important point to consider is, that since this works on the top of Jupyter Interface, so whenever you re-run a cell, the variable names need to be changed as it will return an error of re-defining the variables which have already been defined.
+
+For testing, I have implemented Transfer Learning example that we discussed in the <a href="https://krshrimali.github.io/Applying-Transfer-Learning-Dogs-Cats/">previous blog</a>. This comes handy as I don't need to load the dataset again and again.
 
 <img src="/assets/Training-Image.png"/>
 
-With this blog, I'm also happy to share a Notebook file with implementation of Transfer Learning using ResNet18 Model on Dogs vs Cats Dataset. The source code for Transfer Learning and the Notebook file can be found <a href="https://github.com/krshrimali/Transfer-Learning-Dogs-Cats-Libtorch.git">here</a>.
+## Bonus!
+
+With this blog, I'm also happy to share a Notebook file with implementation of Transfer Learning using ResNet18 Model on Dogs vs Cats Dataset. Additionally, I'm elated to open source the code for Transfer Learning using ResNet18 Model using PyTorch C++ API.
+
+The source code and the notebook file can be found <a href="https://github.com/krshrimali/Transfer-Learning-Dogs-Cats-Libtorch.git">here</a>.
+
+## Debugging - OSX Systems
+
+In case of OSX Systems, if you see any errors similar to: `You are probably missing the definition of <function_name>`, then try any (or all) of the following points:
+
+1. Use `Xeus-Cling` on a virtual environment as this might be because of conflicts with the existing libraries.
+2. Although, OSX Systems shouldn't have `C++ ABI Compatability` Issues but you can still try this if problem persists.
+	1. Go to `TorchCONFIG.cmake` file (it should be present in `<torch_folder>/share/cmake/Torch/`).
+	2. Change `set(TORCH_CXX_FLAGS "-D_GLIBCXX_USE_CXX11_ABI=")` to `set(TORCH_CXX_FLAGS "-D_GLIBCXX_USE_CXX11_ABI=1")` and reload the libraries and header files.
 
 ## References
 
