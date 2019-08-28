@@ -7,7 +7,7 @@ keywords: "Blog, PyTorch, C++, Xeus Cling, Jupyter, Notebook, Libtorch, OpenCV"
 categories: [Blog, PyTorch, OpenCV]
 tags: [Blog, PyTorch, OpenCV]
 blog: [PyTorch]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Cover-Xeus-Cling.jpg
