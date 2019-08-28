@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting up Jupyter Notebook (Xeus Cling) for Libtorch and OpenCV Libraries"
-date: 2019-08-19
+date: 2019-08-28
 desc: "In this blog, we discuss setting up Xeus Cling for Libtorch and OpenCV Libraries"
 keywords: "Blog, PyTorch, C++, Xeus Cling, Jupyter, Notebook, Libtorch, OpenCV"
 categories: [Blog, PyTorch, OpenCV]
