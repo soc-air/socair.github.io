@@ -207,7 +207,7 @@ Let's go ahead and include the libraries.
 
 <img src="/assets/Include-Libraries.png"/>
 
-After successfully importing libraries, we can define functions, write code and use the utilities Jupyter provides. Let's start with playing with Tensors and the code snippets mentioned in the official <a href="https://pytorch.org/cppdocs/"><PyTorch C++ Frontend Docs</a>.
+After successfully importing libraries, we can define functions, write code and use the utilities Jupyter provides. Let's start with playing with Tensors and the code snippets mentioned in the official <a href="https://pytorch.org/cppdocs/">PyTorch C++ Frontend Docs</a>.
 
 Starting with using `ATen` tensor library. We'll create two tensors and add them together. `ATen` comes up with functionalities of mathematical operations on the Tensors. 
 
