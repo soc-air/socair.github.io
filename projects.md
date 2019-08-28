@@ -33,7 +33,7 @@ Computer Vision Projects
 
     - <img src="https://raw.githubusercontent.com/krshrimali/No-Reference-Image-Quality-Assessment-using-BRISQUE-Model/master/Images/Table_Comparison_BRISQUE.png"/>
     - Implementation of NR IQA Method (BRISQUE) in OpenCV using C++ and Python. The project uses LIBSVM and OpenCV libraries. NumPy is used for vectorization.
-3. [**Template Matching, Cartoonification and more**]                   (https://github.com/krshrimali/OpenCV_Work/blob/master/Cartoonifier_Report.pdf) (C++ and Python)
+3. [**Template Matching, Cartoonification and more**](https://github.com/krshrimali/OpenCV_Work/blob/master/Cartoonifier_Report.pdf) (C++ and Python)
 
     - <img src="/assets/blog/cartoonified.PNG"/>
     - Implementation of several OpenCV Algorithms like Template Matching and Cartoonification. [Code](https://github.com/krshrimali/OpenCV_Work) available on my GitHub.
