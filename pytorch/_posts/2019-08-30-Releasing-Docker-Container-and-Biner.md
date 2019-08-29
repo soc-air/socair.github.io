@@ -79,3 +79,7 @@ Go to the above link and a notebook shall open. Create a new notebook and start 
 ## Acknowledgements
 
 Thanks to Vishwesh Ravi Shrimali, for creating the docker container and binder for this post.
+
+## References
+
+1. <a href="https://www.learnopencv.com/install-opencv-docker-image-ubuntu-macos-windows/">Install OpenCV Docker Image on Ubuntu, MacOS or Windows by Vishwesh Ravi Shrimali</a>.
