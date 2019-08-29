@@ -26,6 +26,8 @@ Hi everyone! If you've been following my blog, you would have noticed a couple o
 4. [Classifying Dogs vs Cats using PyTorch C++ API: Part-1](https://krshrimali.github.io/Blog-Dogs-VS-Cats/)
 5. [Classifying Dogs vs Cats using PyTorch C++ API: Part-2](https://krshrimali.github.io/Classifying-Dogs-Cats-PyTorch-CPP-Part-2/)
 6. [Applying Transfer Learning on Dogs vs Cats Dataset using PyTorch C++ API](https://krshrimali.github.io/Applying-Transfer-Learning-Dogs-Cats/)
+7. [Setting up Jupyter Notebook (Xeus Cling) for Libtorch and OpenCV Libraries
+](https://krshrimali.github.io/Setting-Up-Xeus-Cling-Libtorch-OpenCV/)
 
 **Note**: This page will be updated as soon as the next blog has arrived.
 

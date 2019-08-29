@@ -26,23 +26,7 @@ Before we go ahead and discuss the **Why** question of Transfer Learning, let's 
 
 There are 3 scenarios possible:
 
-1. When the data you have is similar (but not enough) to data trained on pre-trained model: Take an example of a pre-trained model trained on ImageNet dataset (containing 1000 classes). And the data we have has Dogs and Cats classes. Fortunate enough, ImageNet has some of the classes of Dog and Cat breeds and thus the model must have learned important features from the data. Let's say we don't have enough data but since the data is similar to the breeds in the ImageNet data set, we can simply use the ConvNet (except the last FC layer) to extract features from our dataset and train only the last Linear (FC) layer. We do this by the following code snippet in `Python`:
-
-```python
-from torchvision import models
-# Download and load the pre-trained model
-model = models.resnet18(pretrained=True)
-
-# Set upgrading the gradients to False
-for param in model.parameters():
-	param.requires_grad = False
-
-# Change the output features to the FC Layer and set it to upgrade gradients as True
-resnet18.fc = torch.nn.Linear(512, 2)
-for param in resnet18.fc.parameters():
-	param.requires_grad = True
-```
-
+1. When the data you have is similar (but not enough) to data trained on pre-trained model: Take an example of a pre-trained model trained on ImageNet dataset (containing 1000 classes). And the data we have has Dogs and Cats classes. Fortunate enough, ImageNet has some of the classes of Dog and Cat breeds and thus the model must have learned important features from the data. Let's say we don't have enough data but since the data is similar to the breeds in the ImageNet data set, we can simply use the ConvNet (except the last FC layer) to extract features from our dataset and train only the last Linear (FC) layer. 
 2. When you have enough data (and is similar to the data trained with pre-trained model): Then you might go for fine tuning the weights of all the layers in the network. This is largely due to the reason that we know we won't overfit because we have enough data.
 3. Using pre-trained models might just be enough if you have the data which matches the classes in the original data set. 
 

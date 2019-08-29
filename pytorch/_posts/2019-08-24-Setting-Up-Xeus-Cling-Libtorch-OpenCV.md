@@ -32,6 +32,8 @@ Just like we use Python Kernel in the Jupyter Notebook, we can also use a C++ ba
 
 It's pretty straight forward to install Xeus Cling using Anaconda. I'm assuming the user has Anaconda installed.  Use this command to install `Xeus Cling` using Anaconda: `conda install -c conda-forge xeus-cling`.
 
+**Note**: Before using `conda` commands, you need to have it in your `PATH` variable. Use this command to add the path to `conda` to your system `PATH` variable: `export PATH=~/anaconda3/bin/:$PATH`. 
+
 The conventional way to install any such library which can create conflicts with existing libraries, is to create an environment and then install it in the environment.
 
 1. Create a `conda` environment: `conda create -n cpp-xeus-cling`.
@@ -58,6 +60,7 @@ We will first give the `include_path` of Header files and `library_path` for the
 
 ```cpp
 #pragma cling add_library_path("/Users/krshrimali/Downloads/libtorch/lib/")
+#pragma cling add_include_path("/Users/krshrimali/Downloads/libtorch/include")
 #pragma cling add_include_path("/Users/krshrimali/Downloads/libtorch/include/torch/csrc/api/include/")
 #pragma cling add_library_path("/usr/local/Cellar/opencv/4.1.0_2/lib")
 #pragma cling add_include_path("/usr/local/Cellar/opencv/4.1.0_2/include/opencv4")
@@ -72,9 +75,6 @@ For OS X, the libtorch libraries will be in the format of `.dylib`. Ignore the `
 #pragma cling load("/Users/krshrimali/Downloads/libtorch/lib/libmklml.dylib")
 #pragma cling load("/Users/krshrimali/Downloads/libtorch/lib/libc10.dylib")
 #pragma cling load("/Users/krshrimali/Downloads/libtorch/lib/libtorch.dylib")
-#pragma cling load("/Users/krshrimali/Downloads/libtorch/lib/libcaffe2_detectron_ops.dylib")
-#pragma cling load("/Users/krshrimali/Downloads/libtorch/lib/libcaffe2_module_test_dynamic.dylib")
-#pragma cling load("/Users/krshrimali/Downloads/libtorch/lib/libcaffe2_observers.dylib")
 #pragma cling load("/Users/krshrimali/Downloads/libtorch/lib/libshm.dylib")
 ```
 
@@ -82,8 +82,6 @@ For OS X, the libtorch libraries will be in the format of `.dylib`. Ignore the `
 
 ```cpp
 #pragma cling load("/opt/libtorch/lib/libc10.so")
-#pragma cling load("/opt/libtorch/lib/libcaffe2_detectron_ops.so")
-#pragma cling load("/opt/libtorch/lib/libcaffe2_module_test_dynamic.so")
 #pragma cling load("/opt/libtorch/lib/libgomp-4f651535.so.1")
 #pragma cling load("/opt/libtorch/lib/libtorch.so")
 ```
@@ -200,7 +198,15 @@ Once done, run the cell and that's it. We have successfully setup the environmen
 
 ## Testing Xeus Cling Notebook
 
-Let's go ahead and include the libraries.
+Let's go ahead and include the libraries. I'll be sharing the code snippets as well as the screenshots to make it easy for the readers to reproduce results.
+
+```cpp
+#include <torch/torch.h>
+#include <torch/script.h>
+#include <iostream>
+#include <dirent.h>
+#include <opencv2/opencv.hpp>
+```
 
 <img src="/assets/Include-Libraries.png"/>
 
@@ -208,16 +214,56 @@ After successfully importing libraries, we can define functions, write code and 
 
 Starting with using `ATen` tensor library. We'll create two tensors and add them together. `ATen` comes up with functionalities of mathematical operations on the Tensors. 
 
+```cpp
+#include <ATen/ATen.h>
+
+at::Tensor a = at::ones({2, 2}, at::kInt);
+at::Tensor b = at::randn({2, 2});
+auto c = a + b.to(at::kInt);
+
+std::cout << "a: " << a << std::endl;
+std::cout << std::endl;
+std::cout << "b: " << b << std::endl;
+std::cout << std::endl;
+std::cout << "c: " << c << std::endl;
+```
+
 <img src="/assets/ATen-Example.png"/>
 
 One of the reasons why `Xeus-Cling` is useful is, that you can print the outputs of intermediate steps and debug. Let's go ahead and experiment with `Autograd` system of PyTorch C++ API.
 
 For those who don't know, automatic differentiation is the most important function of Deep Learning algorithms to backpropagte the loss we calculate.
 
+```cpp
+#include <torch/csrc/autograd/variable.h>
+#include <torch/csrc/autograd/function.h>
+
+torch::Tensor a_tensor = torch::ones({2, 2}, torch::requires_grad());
+torch::Tensor b_tensor = torch::randn({2, 2});
+
+std::cout << a_tensor << std::endl;
+std::cout << b_tensor << std::endl;
+
+auto c_tensor = a_tensor + b_tensor;
+c_tensor.backward(); // a.grad() will now hold the gradient of c w.r.t a
+
+std::cout << c_tensor << std::endl;
+```
+
 <img src="/assets/Autograd-Example-1.png"/>
 <img src="/assets/Autograd-Example-2.png"/>
 
 How about debugging? As you can see in the figure below, I get an error stating `no member named 'size' in namespace 'cv'`. This is because namespace `cv` has member called `Size` and not `size`. 
+
+```cpp
+torch::Tensor read_images(std::string location) {
+	cv::Mat img = cv::imread(location, 1);
+	cv::resize(img, img, cv::size(224, 224), cv::INTER_CUBIC);
+	torch::Tensor img_tensor = torch::from_blob(img.data, {img.rows, img.cols, 3}, torch::kByte);
+	img_tensor = img_tensor.permute({2, 0, 1});
+	return img_tensor.clone();
+}
+```
 
 <img src="/assets/Debug-Example.png"/>
 

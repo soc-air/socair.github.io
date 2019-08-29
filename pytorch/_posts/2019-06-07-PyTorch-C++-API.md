@@ -47,6 +47,8 @@ struct Net: torch::nn::Module {
     // VGG-16 Layer
     // conv1_1 - conv1_2 - pool 1 - conv2_1 - conv2_2 - pool 2 - conv3_1 - conv3_2 - conv3_3 - pool 3 -
     // conv4_1 - conv4_2 - conv4_3 - pool 4 - conv5_1 - conv5_2 - conv5_3 - pool 5 - fc6 - fc7 - fc8
+    
+    // Note: pool 5 not implemented as no need for MNIST dataset
     Net() {
         // Initialize VGG-16
         // On how to pass strides and padding: https://github.com/pytorch/pytorch/issues/12649#issuecomment-430156160
@@ -96,7 +98,6 @@ struct Net: torch::nn::Module {
         x = torch::relu(conv5_1->forward(x));
         x = torch::relu(conv5_2->forward(x));
         x = torch::relu(conv5_3->forward(x));
-        x = torch::max_pool2d(x, 2);
 
         x = x.view({-1, 130});
 
@@ -132,7 +133,7 @@ Once done, we can go ahead and test the network on our sample dataset. Let's go 
 int main() {
 	// Create multi-threaded data loader for MNIST data
 	auto data_loader = torch::data::make_data_loader<torch::data::samplers::SequentialSampler>(
-			std::move(torch::data::datasets::MNIST("../../data").map(torch::data::transforms::Normalize<>(0.13707, 0.3081)).map(
+			std::move(torch::data::datasets::MNIST("/absolute/path/to/data").map(torch::data::transforms::Normalize<>(0.13707, 0.3081)).map(
 				torch::data::transforms::Stack<>())), 64);
 	
     // Build VGG-16 Network
