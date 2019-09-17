@@ -18,11 +18,11 @@ I'm pleased to start a series of blogs on GANs and their implementation with PyT
 
 <img src="/assets/Cover-DCGAN.jpg"/>
 
-The authors (Soumith Chintala, Radford and Luke Metz) in this Seminal Paper on DCGANs introduced DCGANs to the world like this:
+The authors (Soumith Chintala, Radford and Luke Metz) in <a href="https://arxiv.org/pdf/1511.06434.pdf">this</a> Seminal Paper on DCGANs introduced DCGANs to the world like this:
 
 > We introduce a class of CNNs called deep convolutional generative adversarial networks (DCGANs), that have certain architectural constraints, and demonstrate that they are a strong candidate for unsupervised learning. Training on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to scenes in both the generator and discriminator. Additionally, we use the learned features for novel tasks - demonstrating their applicability as general image representations.
 
-Even though, the introduction to DCGANs is quite lucid, and here are some points to note:
+Even though, the introduction to DCGANs is quite lucid, but here are some points to note:
 
 1. DCGANs are a class of Convolutional Neural Networks.
 2. They are a strong candidate for Unsupervised Learning.
@@ -52,7 +52,7 @@ The above equation, shows how the Generator and Discriminator plays min-max game
 	1. **When the data is from the data distribution:** Discriminator tries to predict the data as real.
 	2. **When the data is from the Generator:** Discriminator tries to predict the data as fake.
 
-Fundamentally, the Generator is trying to fool the Discriminator and the Discriminator is trying not to get fooled with. Because of it's analogy, it's also called a police-thief game. (Police is the Discriminator and theif is the Generator).
+Fundamentally, the Generator is trying to fool the Discriminator and the Discriminator is trying not to get fooled with. Because of it's analogy, it's also called a police-thief game. (Police is the Discriminator and thief is the Generator).
 
 We have good enough discussion on GANs, to kickstart discussion on DCGANs. Let's go ahead and see what changes they proposed on common CNNs:
 
@@ -70,13 +70,11 @@ Changes in the **Discriminator**:
 3. Remove FC layers for deeper architectures.
 4. Use LeakyReLU activation function for all the layers in the Discriminator.
 
-<img src="/assets/DCGAN-Generator.png"/>
-<center>Generator of the DCGAN used for LSUN scene modeling. Source: https://arxiv.org/pdf/1511.06434.pdf</center>
+<img src="/assets/DCGAN-Generator.png"/><center>Generator of the DCGAN used for LSUN scene modeling. Source: https://arxiv.org/pdf/1511.06434.pdf</center>
 
 As you would note in the above architecture, there is absence of spatial pooling layers and fully connected layers. 
 
-<img src="/assets/DCGAN-Discriminator.png"/>
-<center>Discriminator of the DCGAN used for LSUN scene modeling.</center>
+<img src="/assets/DCGAN-Discriminator.png"/><center>Discriminator of the DCGAN used for LSUN scene modeling. Source: https://github.com/ChengBinJin/DCGAN-TensorFlow</center>
 
 Notably again, there are no pooling and fully connected layers (except the last layer).
 
@@ -191,26 +189,16 @@ public:
         main = torch::nn::Sequential(
            torch::nn::Conv2d(torch::nn::Conv2dOptions(nc, ndf, 4).stride(2).padding(1).with_bias(false)),
            torch::nn::Functional(torch::leaky_relu, 0.2),
-           
            torch::nn::Conv2d(torch::nn::Conv2dOptions(ndf, ndf*2, 4).stride(2).padding(1).with_bias(false)),
-           
            torch::nn::BatchNorm(ndf*2),
-           
            torch::nn::Functional(torch::leaky_relu, 0.2),
-           
            torch::nn::Conv2d(torch::nn::Conv2dOptions(ndf*2, ndf*4, 4).stride(2).padding(1).with_bias(false)),
-           
            torch::nn::BatchNorm(ndf*4),
-           
            torch::nn::Functional(torch::leaky_relu, 0.2),
            torch::nn::Conv2d(torch::nn::Conv2dOptions(ndf*4, ndf*8, 4).stride(2).padding(1).with_bias(false)),
-           
            torch::nn::BatchNorm(ndf*8),
-           
            torch::nn::Functional(torch::leaky_relu, 0.2),
-           
            torch::nn::Conv2d(torch::nn::Conv2dOptions(ndf*8, 1, 4).stride(1).padding(0).with_bias(false)),
-           
            torch::nn::Functional(torch::sigmoid)
         );
     }
@@ -252,7 +240,6 @@ Let's go ahead and define optimizers and train our model. We use the parameters 
 torch::optim::Adam gen_optimizer(gen_model->parameters(), torch::optim::AdamOptions(2e-4).beta1(0.5));
 torch::optim::Adam dis_optimizer(dis_model->parameters(), torch::optim::AdamOptions(2e-4).beta1(0.5));
 ```
-<<<<<<< HEAD
 
 Time to write our training code. We are using `CelebA` dataset which looks like this:
 
@@ -339,6 +326,4 @@ In the coming blog, I'll share the results and answer a few common questions on 
 
 ## Acknowledgement and References
 
-I would like to thank <a href="https://github.com/yf225">Will Feng</a> and <a href="https://discuss.pytorch.org/u/ptrblck/summary">Piotr</a> for their useful suggestions. The code used in this blog, is partially analogous to the official <a href="https://github.com/pytorch/examples/tree/master/cpp/dcgan">PyTorch examples repo on DCGAN using Libtorch</a>. I've also referred the original paper by <a href="https://twitter.com/soumithchintala">Soumith Chintala</a> and others.
-=======
->>>>>>> d28645f19818aff8ebc8dcf037511b3feafeadf3
+I would like to thank <a href="https://github.com/yf225">Will Feng</a> and <a href="https://discuss.pytorch.org/u/ptrblck/summary">Piotr</a> for their useful suggestions. The code used in this blog, is partially analogous to the official <a href="https://github.com/pytorch/examples/tree/master/cpp/dcgan">PyTorch examples repo on DCGAN using Libtorch</a>. I've also referred the original paper by <a href="https://twitter.com/soumithchintala">Soumith Chintala</a> and others. The sources of reference images (for Network architectures) have been acknowledged in the captions of respective images.
