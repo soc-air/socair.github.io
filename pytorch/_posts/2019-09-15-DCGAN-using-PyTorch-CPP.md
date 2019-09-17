@@ -18,11 +18,11 @@ I'm pleased to start a series of blogs on GANs and their implementation with PyT
 
 <img src="/assets/Cover-DCGAN.jpg"/>
 
-The authors (Soumith Chintala, Radford and Luke Metz) in this Seminal Paper on DCGANs introduced DCGANs to the world like this:
+The authors (Soumith Chintala, Radford and Luke Metz) in <a href="https://arxiv.org/pdf/1511.06434.pdf">this</a> Seminal Paper on DCGANs introduced DCGANs to the world like this:
 
 > We introduce a class of CNNs called deep convolutional generative adversarial networks (DCGANs), that have certain architectural constraints, and demonstrate that they are a strong candidate for unsupervised learning. Training on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to scenes in both the generator and discriminator. Additionally, we use the learned features for novel tasks - demonstrating their applicability as general image representations.
 
-Even though, the introduction to DCGANs is quite lucid, and here are some points to note:
+Even though, the introduction to DCGANs is quite lucid, but here are some points to note:
 
 1. DCGANs are a class of Convolutional Neural Networks.
 2. They are a strong candidate for Unsupervised Learning.
@@ -52,7 +52,7 @@ The above equation, shows how the Generator and Discriminator plays min-max game
 	1. **When the data is from the data distribution:** Discriminator tries to predict the data as real.
 	2. **When the data is from the Generator:** Discriminator tries to predict the data as fake.
 
-Fundamentally, the Generator is trying to fool the Discriminator and the Discriminator is trying not to get fooled with. Because of it's analogy, it's also called a police-thief game. (Police is the Discriminator and theif is the Generator).
+Fundamentally, the Generator is trying to fool the Discriminator and the Discriminator is trying not to get fooled with. Because of it's analogy, it's also called a police-thief game. (Police is the Discriminator and thief is the Generator).
 
 We have good enough discussion on GANs, to kickstart discussion on DCGANs. Let's go ahead and see what changes they proposed on common CNNs:
 
@@ -326,4 +326,4 @@ In the coming blog, I'll share the results and answer a few common questions on 
 
 ## Acknowledgement and References
 
-I would like to thank <a href="https://github.com/yf225">Will Feng</a> and <a href="https://discuss.pytorch.org/u/ptrblck/summary">Piotr</a> for their useful suggestions. The code used in this blog, is partially analogous to the official <a href="https://github.com/pytorch/examples/tree/master/cpp/dcgan">PyTorch examples repo on DCGAN using Libtorch</a>. I've also referred the original paper by <a href="https://twitter.com/soumithchintala">Soumith Chintala</a> and others.
+I would like to thank <a href="https://github.com/yf225">Will Feng</a> and <a href="https://discuss.pytorch.org/u/ptrblck/summary">Piotr</a> for their useful suggestions. The code used in this blog, is partially analogous to the official <a href="https://github.com/pytorch/examples/tree/master/cpp/dcgan">PyTorch examples repo on DCGAN using Libtorch</a>. I've also referred the original paper by <a href="https://twitter.com/soumithchintala">Soumith Chintala</a> and others. The sources of reference images (for Network architectures) have been acknowledged in the captions of respective images.
