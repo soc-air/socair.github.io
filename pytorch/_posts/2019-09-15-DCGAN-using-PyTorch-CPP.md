@@ -240,7 +240,6 @@ Let's go ahead and define optimizers and train our model. We use the parameters 
 torch::optim::Adam gen_optimizer(gen_model->parameters(), torch::optim::AdamOptions(2e-4).beta1(0.5));
 torch::optim::Adam dis_optimizer(dis_model->parameters(), torch::optim::AdamOptions(2e-4).beta1(0.5));
 ```
-<<<<<<< HEAD
 
 Time to write our training code. We are using `CelebA` dataset which looks like this:
 
