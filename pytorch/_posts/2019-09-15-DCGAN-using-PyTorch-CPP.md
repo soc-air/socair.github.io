@@ -70,13 +70,11 @@ Changes in the **Discriminator**:
 3. Remove FC layers for deeper architectures.
 4. Use LeakyReLU activation function for all the layers in the Discriminator.
 
-<img src="/assets/DCGAN-Generator.png"/>
-<center>Generator of the DCGAN used for LSUN scene modeling. Source: https://arxiv.org/pdf/1511.06434.pdf</center>
+<img src="/assets/DCGAN-Generator.png"/><center>Generator of the DCGAN used for LSUN scene modeling. Source: https://arxiv.org/pdf/1511.06434.pdf</center>
 
 As you would note in the above architecture, there is absence of spatial pooling layers and fully connected layers. 
 
-<img src="/assets/DCGAN-Discriminator.png"/>
-<center>Discriminator of the DCGAN used for LSUN scene modeling.</center>
+<img src="/assets/DCGAN-Discriminator.png"/><center>Discriminator of the DCGAN used for LSUN scene modeling. Source: https://github.com/ChengBinJin/DCGAN-TensorFlow</center>
 
 Notably again, there are no pooling and fully connected layers (except the last layer).
 
