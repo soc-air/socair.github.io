@@ -20,12 +20,7 @@ I'm pleased to start a series of blogs on GANs and their implementation with PyT
 
 The authors (Soumith Chintala, Radford and Luke Metz) in this Seminal Paper on DCGANs introduced DCGANs to the world like this:
 
-> We introduce a class of CNNs called deep convolutional generative
-adversarial networks (DCGANs), that have certain architectural constraints, and
-demonstrate that they are a strong candidate for unsupervised learning. Training
-on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to
-scenes in both the generator and discriminator. Additionally, we use the learned
-features for novel tasks - demonstrating their applicability as general image representations.
+> We introduce a class of CNNs called deep convolutional generative adversarial networks (DCGANs), that have certain architectural constraints, and demonstrate that they are a strong candidate for unsupervised learning. Training on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to scenes in both the generator and discriminator. Additionally, we use the learned features for novel tasks - demonstrating their applicability as general image representations.
 
 Even though, the introduction to DCGANs is quite lucid, and here are some points to note:
 
@@ -46,7 +41,7 @@ Any Generative Adversarial Network has 2 major components: a Generator and a Dis
 
 Both Generator and Discriminator tasks can be represented beautifully with the following equation:
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=%5Cmin_%7BG%7D%5Cmax_%7BD%7DL%28D%2C%20G%29%20%3D%20E_%7Bx%20%20%5Csim%20p_data%28x%29%7D%20%20%5Cbig%28%5Clog%20D%28x%29%20%5Cbig%29%20%20%2B%20E_%7Bx%20%5Csim%20p_z%28x%29%7D%20%5Cbig%28%5Clog%281%20-%20D%28G%28z%29%29%29%5Cbig%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="\min_{G}\max_{D}L(D, G) = E_{x  \sim p_data(x)}  \big(\log D(x) \big)  + E_{x \sim p_z(x)} \big(\log(1 - D(G(z)))\big)" width="569" height="29" />
+<img src="/assets/GANs-Equation.png"/>
 
 The above equation, shows how the Generator and Discriminator plays min-max game. 
 
@@ -257,6 +252,7 @@ Let's go ahead and define optimizers and train our model. We use the parameters 
 torch::optim::Adam gen_optimizer(gen_model->parameters(), torch::optim::AdamOptions(2e-4).beta1(0.5));
 torch::optim::Adam dis_optimizer(dis_model->parameters(), torch::optim::AdamOptions(2e-4).beta1(0.5));
 ```
+<<<<<<< HEAD
 
 Time to write our training code. We are using `CelebA` dataset which looks like this:
 
@@ -344,3 +340,5 @@ In the coming blog, I'll share the results and answer a few common questions on 
 ## Acknowledgement and References
 
 I would like to thank <a href="https://github.com/yf225">Will Feng</a> and <a href="https://discuss.pytorch.org/u/ptrblck/summary">Piotr</a> for their useful suggestions. The code used in this blog, is partially analogous to the official <a href="https://github.com/pytorch/examples/tree/master/cpp/dcgan">PyTorch examples repo on DCGAN using Libtorch</a>. I've also referred the original paper by <a href="https://twitter.com/soumithchintala">Soumith Chintala</a> and others.
+=======
+>>>>>>> d28645f19818aff8ebc8dcf037511b3feafeadf3
