@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Releasing Docker Container and Binder for using Xeus-Cling, Libtorch and OpenCV in C++"
-date: 2019-08-30
+date: 2019-09-15
 desc: "In this blog, we discuss setting up Xeus Cling for Libtorch and OpenCV Libraries"
 keywords: "Blog, PyTorch, C++, Xeus Cling, Jupyter, Notebook, Libtorch, OpenCV, Docker, Binder"
 categories: [Blog, PyTorch, OpenCV]
@@ -74,7 +74,9 @@ Let's test the Docker Image with Xeus-Cling.
 
 And! What if you just want to try `Libtorch` or show it to the students? What if you are on a remote PC, and can't install Docker? Well, here is the `Binder`: https://mybinder.org/v2/gh/vishwesh5/torch-binder/master.
 
-Go to the above link and a notebook shall open. Create a new notebook and start with: `#include "includeLibraries.h"` first and then start testing.
+Go to the above link and a notebook shall open. 
+
+Create a new notebook and start with: `#include "includeLibraries.h"` first and then start testing.
 
 ## Acknowledgements
 
