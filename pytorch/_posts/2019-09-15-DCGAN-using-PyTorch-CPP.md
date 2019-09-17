@@ -278,7 +278,7 @@ for(int epoch=1; epoch<=10; epoch++) {
         netD->zero_grad();
         // Calculating discriminator loss on real images
         torch::Tensor images_real = batch.data.to(device);
-        torch::Tensor labels_real = torch::empty(batch.data.size(0).uniform_(0.8, 1.0));
+        torch::Tensor labels_real = torch::empty(batch.data.size(0), device).uniform_(0.8, 1.0));
         // Do a forward pass to the Discriminator network
         torch::Tensor output_D_real = netD->forward(images_real);
         // Calculate the loss
@@ -287,9 +287,9 @@ for(int epoch=1; epoch<=10; epoch++) {
 
         // Calculate discriminator loss on fake images
         // Generate noise and do forward pass to generate fake images
-        torch:Tensor fake_random = torch::randn({batch.data.size(0), args.nz, 1, 1});
+        torch:Tensor fake_random = torch::randn({batch.data.size(0), args.nz, 1, 1}, device);
         torch::Tensor images_fake = netG->forward(images_fake);
-        torch::Tensor labels_fake = torch::zeros(batch.data.size(0));
+        torch::Tensor labels_fake = torch::zeros(batch.data.size(0), device);
         // Do a forward pass to the Discriminator network
         torch::Tensor output_D_fake = netD->forward(images_fake);
         // Calculate the loss
@@ -316,7 +316,7 @@ for(int epoch=1; epoch<=10; epoch++) {
         gen_optimizer.step();
 
         std::cout << "Epoch: " << epoch << ", Batch: " << batch_count << ", Gen Loss: " << loss_generator.item<float>() << ", Discriminator Loss: " << loss_discriminator.item<float>() << std::endl;
-
+	
         batch_count++;
     }
 }
