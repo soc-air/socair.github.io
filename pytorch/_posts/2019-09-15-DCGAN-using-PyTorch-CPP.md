@@ -7,7 +7,7 @@ keywords: "Blog, PyTorch, C++, Libtorch, OpenCV"
 categories: [Blog, PyTorch, OpenCV]
 tags: [Blog, PyTorch, OpenCV]
 blog: [PyTorch]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Cover-DCGAN.jpg
@@ -15,6 +15,8 @@ icon: icon-html
 ---
 
 I'm pleased to start a series of blogs on GANs and their implementation with PyTorch C++ API. We'll be starting with one of the initial GANs - DCGANs (Deep Convolutional Generative Adversarial Networks).
+
+<!--more-->
 
 <img src="/assets/Cover-DCGAN.jpg"/>
 
