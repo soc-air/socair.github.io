@@ -340,5 +340,3 @@ In the coming blog, I'll share the results and answer a few common questions on 
 ## Acknowledgement and References
 
 I would like to thank <a href="https://github.com/yf225">Will Feng</a> and <a href="https://discuss.pytorch.org/u/ptrblck/summary">Piotr</a> for their useful suggestions. The code used in this blog, is partially analogous to the official <a href="https://github.com/pytorch/examples/tree/master/cpp/dcgan">PyTorch examples repo on DCGAN using Libtorch</a>. I've also referred the original paper by <a href="https://twitter.com/soumithchintala">Soumith Chintala</a> and others.
-=======
->>>>>>> d28645f19818aff8ebc8dcf037511b3feafeadf3
