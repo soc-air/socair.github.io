@@ -14,7 +14,7 @@ images:
 icon: icon-html
 ---
 
-It's been around 5 months since I released my last blog on <a href="https://krshrimali.github.io/DCGAN-using-PyTorch-CPP/">DCGAN Review and Implementation using PyTorch C++ API</a> and I've missed writing blogs badly! If you're eager to know what I've been upto in the last few months, check out my blog post: <a href="https://krshrimali.github.io/Where-Have-I-Been?/">Where have I been?</a>. Straight the to the point, I'm back!
+It's been around 5 months since I released my last blog on <a href="https://krshrimali.github.io/DCGAN-using-PyTorch-CPP/">DCGAN Review and Implementation using PyTorch C++ API</a> and I've missed writing blogs badly! Straight the to the point, I'm back!
 
 <!--more-->
 
@@ -22,7 +22,7 @@ But before we start, the PyTorch C++ Frontend has gone through several changes a
 
 ## What has changed?
 
-In the previous blog, we discussed DCGAN, and implementation, but today - we are going to train our DCGAN on CelebA dataset and review the results. But let's see, what parts of our code have changed in the recent Libtorch version. Well, the frontend API of PyTorch in C++ resembles closely to Python now:
+There have been major changes in the PyTorch C++ Frontend API (Libtorch) and we'll be discussing some of them which were related to our implementation on DCGAN. Let's see, what parts of our code have changed in the recent Libtorch version. Well, the frontend API of PyTorch in C++ resembles closely to Python now:
 
 For what concerns our code on DCGAN, quoting the author (Will Feng) of PR <a href="https://github.com/pytorch/pytorch/pull/28917">#28917</a>:
 
@@ -54,6 +54,10 @@ torch::save(samples, torch::str("dcgan-sample-", ++checkpoint_counter, ".pt"));
 Once we have the saved output, we can load the file and produce output (find the `display_samples.py` file in my <a href="https://github.com/krshrimali/DCGAN-PyTorch-Python-CPP">GitHub repo for this blog</a>). Here is how the output looks like, after 10 epochs of training:
 
 <img src="/assets/dcgan-output.png"/>
+
+And how about an animation?
+
+<img src="/assets/animation.gif"/>
 
 Isn't this amazing?
 
