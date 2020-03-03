@@ -30,22 +30,9 @@ For what concerns our code on DCGAN, quoting the author (Will Feng) of PR <a hre
     - with_bias is renamed to bias.
     - input_channels is renamed to in_channels.
     - output_channels is renamed to out_channels.
-    - The value of transposed doesn't affect the behavior of Conv{1,2,3}d layers anymore. Users should migrate their code to use ConvTranspose{1,2,3}d layers instead. Note that ConvTranspose{1,2,3}d cannot be used in a Sequential module because Sequential module doesn't support modules with forward method that can take optional arguments. Users should create their own wrapper for ConvTranspose{1,2,3}d and have its forward method just accept a tensor, if they want to use it in a Sequential module.
+    - The value of transposed doesn't affect the behavior of Conv{1,2,3}d layers anymore. Users should migrate their code to use ConvTranspose{1,2,3}d layers instead. 
 
 So, starting first, we need to change `with_bias` to `bias` in our model definitions. The generator class in DCGAN uses Transposed Convolutions, and that's why we need to migrate from `torch::nn::Conv2dOptions` class to `torch::nn::ConvTranspose2dOptions` (this is because using `.transposed(true/false)` does not work anymore on `torch::nn::Conv2dOptions`).
-
-And since, we have used Sequential models, and we need to create our own wrapper for the `ConvTranspose2d` class (and it's forward method), something like this:
-
-```cpp
-// Reference: PR #28917 (PyTorch)
-struct ConvTranspose2dWrapperImpl : public torch::nn::ConvTranspose2dImpl {
-    using torch::nn::ConvTranspose2dImpl::ConvTranspose2dImpl;
-
-    torch::Tensor forward(const torch::Tensor& input) {
-        return torch::nn::ConvTranspose2dImpl::forward(input, c10::nullopt);
-    }
-};
-```
 
 That is all for the changes we needed to make. Time to talk about results!
 
