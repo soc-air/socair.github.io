@@ -44,7 +44,7 @@ Time to talk about results!
 
 The aim of this blog is to get DCGAN running on our celebA dataset using PyTorch C++ Frontend API. I'm in no way aiming to produce the best possible results. I trained the DCGAN network on celebA dataset for 10 epochs. In order to visualize results, for every checkpoint (where we save our models), we pass a sample noise image (64 images here) to the generator and save the output:
 
-```
+```cpp
 // equivalent to using torch.no_grad() in Python
 auto options = torch::TensorOptions().device(device).requires_grad(false);
 
