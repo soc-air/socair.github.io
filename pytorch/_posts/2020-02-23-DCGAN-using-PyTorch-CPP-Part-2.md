@@ -7,7 +7,7 @@ keywords: "Blog, PyTorch, C++, Libtorch, OpenCV"
 categories: [Blog, PyTorch, OpenCV]
 tags: [Blog, PyTorch, OpenCV]
 blog: [PyTorch]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Cover-DCGAN-2.jpg
@@ -17,6 +17,8 @@ icon: icon-html
 It's been around 5 months since I released my last blog on <a href="https://krshrimali.github.io/DCGAN-using-PyTorch-CPP/">DCGAN Review and Implementation using PyTorch C++ API</a> and I've missed writing blogs badly! Straight the to the point, I'm back!
 
 <!--more-->
+
+<img src="/assets/Cover-DCGAN-2.jpg"/>
 
 But before we start, the PyTorch C++ Frontend has gone through several changes and thanks to the awesome contributors around the world, it resembles the Python API more than it ever did! Since a lot of things have changed, I have also updated my previous blogs (tested on 1.4 Stable build).
 
