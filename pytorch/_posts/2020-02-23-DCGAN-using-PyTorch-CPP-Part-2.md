@@ -36,7 +36,9 @@ For what concerns our code on DCGAN, quoting the author (Will Feng) of PR <a hre
 
 So, starting first, we need to change `with_bias` to `bias` in our model definitions. The generator class in DCGAN uses Transposed Convolutions, and that's why we need to migrate from `torch::nn::Conv2dOptions` class to `torch::nn::ConvTranspose2dOptions` (this is because using `.transposed(true/false)` does not work anymore on `torch::nn::Conv2dOptions`).
 
-That is all for the changes we needed to make. Time to talk about results!
+That is all for the changes we needed to make. To make it easy to track changes and use the code I wrote, I've made the project public on <a href="https://github.com/krshrimali/DCGAN-CelebA-PyTorch-CPP.git">GitHub</a>. Feel free to file an issue in case you hit a bug/error. 
+
+Time to talk about results!
 
 ## Results
 
