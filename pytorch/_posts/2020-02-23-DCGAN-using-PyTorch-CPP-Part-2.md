@@ -55,7 +55,7 @@ torch::Tensor samples = netG->forward(torch::randn({64, args.nz, 1, 1}, options)
 torch::save(samples, torch::str("dcgan-sample-", ++checkpoint_counter, ".pt"));
 ```
 
-Once we have the saved output, we can load the file and produce output (find the `display_samples.py` file in my <a href="https://github.com/krshrimali/DCGAN-PyTorch-Python-CPP">GitHub repo for this blog</a>). Here is how the output looks like, after 10 epochs of training:
+Once we have the saved output, we can load the file and produce output (find the `display_samples.py` file in the <a href="https://github.com/BuffetCodes/DCGAN-PyTorch-Python-CPP">GitHub repo for this blog</a>). Here is how the output looks like, after 10 epochs of training:
 
 <img src="/assets/dcgan-output.png"/>
 
