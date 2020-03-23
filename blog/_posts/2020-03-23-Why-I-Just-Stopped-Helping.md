@@ -7,6 +7,7 @@ keywords: "Blog"
 categories: [Blog, Personal]
 tags: [Blog, Personal]
 blog: [Blog, Personal]
+published: true
 excerpt_separator: <!--more-->
 icon: icon-html
 ---
