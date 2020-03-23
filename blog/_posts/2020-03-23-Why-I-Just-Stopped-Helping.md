@@ -26,7 +26,7 @@ There was no one to ask for help. Fair enough, the institute was just a year old
 
 Things changed: friends suddenly had no time for me, I got busier but felt alone and more unknown faces asked for help. When they shoot me a message, they may not realize how busy I am, but I still help. It has given me great pleasure to be able to help, but I made a mistake. I expected them to value my advice when they ask for it. In my defense, when I am giving my precious time to somebody, I want (not just expect) people to respect it. Because it's my time which I have traded for their help. Every day, someone will come with a question and I will help. I was unbiased. I will help them no matter who they are. But then I realised, I don't work for an NGO to help everyone. I'm still 21 (/young) and I have my own life to live. I had my family to be taken care off (and they deserved all my time). I needed time for myself. But then, I didn't want to say no as well. So I started monitoring every one who would ask for help, to see if they gave enough value to it. Turned out, they didn't (except a couple of them). They were still making the same mistakes that they did before, and I recently concluded: I wasted my time and energy. It wasn't worth it. It's unfortunate but now...the door has closed.
 
-<img src="assets/door-closed.jpg"/>
+<img src="/assets/door-closed.jpg"/>
 
 Surprisingly, it didn't work out with my friends as well. When...
 
