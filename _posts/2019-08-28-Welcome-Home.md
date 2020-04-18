@@ -15,14 +15,17 @@ icon: icon-html
 
 ## About Me
 
-Hello World! I'm Kushashwa Ravi Shrimali, Final Year Undergraduate at International Institute of Information Technology, Naya Raipur with major in Computer Science and Engineering. I've previously worked at the ROSE Labs, NTU Singapore (Object Detection) and with US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. I am interested in Computer Vision and Deep Learning with an ink of development. 
-
-I am currently open to 6 Month Internship Opportunities and my near goal is to do a Ph.D. in the field of Computer Vision.
+Hello World! I'm Kushashwa Ravi Shrimali, Final Year Undergraduate at International Institute of Information Technology, Naya Raipur with major in Computer Science and Engineering. I've previously worked at NVIDIA (Santa Clara, US) in the DL Frameworks Team (PyTorch), ROSE Labs, NTU Singapore (CV and DL) and with a US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. I love development which brings an impact in helping AI algorithms to be deployed in real-time scenarios.
 
 Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> or <a href="https://krshrimali.github.io/opencv/">OpenCV</a> section of this blog to read my blogs.
 
 ## Work Experience
 
+- **NVIDIA (Deep Learning Frameworks Team, PyTorch), Santa Clara, US**
+    - On site internship at NVIDIA Head Quarters, Santa Clara. See the following PRs if you want to know what I worked on.
+        * https://github.com/pytorch/pytorch/pull/33322
+        * https://github.com/pytorch/pytorch/pull/33063
+        * https://github.com/pytorch/pytorch/pull/33063
 - **Rapid Rich Object Search (ROSE) Labs, NTU Singapore** 
     - On-site internship at ROSE Labs, NTU Singapore under Prof. Alex Kot (Director, ROSE Labs). Worked on Automatic License Plate Recognition technique in real time using PyTorch in both C++ and Python. Used YOLO based network and achieved 85% accuracy for Single Line License Plates and Double Line License Plates (tested on real time dataset of Singaporean Vehicles).
 - **Big Vision LLC and LearnOpenCV, California**
@@ -47,10 +50,10 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
 
 ## Skills
 	
-* **Programming Language:** Python, C++, JS, C, Shell Script
+* **Programming Language:** C++, CUDA, C, Shell, Python, Perl
 * **Tools:** LaTeX, Git, MATLAB, Jupyter
-* **Frameworks:** OpenCV, PyTorch
-* **Libraries:** NumPy, Matplotlib, scikit-learn, OpenCV, PyTorch, Keras, Tensorflow, Processing
+* **Frameworks:** OpenCV, PyTorch, Tensorflow
+* **Libraries:** NumPy, Matplotlib, scikit-learn, OpenCV, PyTorch, Keras, Tensorflow
 
 ## Non-Academic Interests and Achievements
 
