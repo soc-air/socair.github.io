@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a Senior Undergraduate at IIIT Naya Raipur, India (2016-20, B.Tech CSE). 
+I'm a Senior Undergraduate at IIIT Naya Raipur, India (2016-20, B.Tech CSE). I love development which makes AI happen in real-time scenarios.
 
 I have previously interned at :
 
