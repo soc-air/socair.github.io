@@ -10,7 +10,7 @@ blog: [C++]
 published: true
 excerpt_separator: <!--more-->
 images:
-  - url: /assets/Vectors-Part-1.png
+  - url: /assets/Vector-Part-1.png
 icon: icon-html
 ---
 
