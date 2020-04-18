@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding how Vectors work in C++ (Part-1): push_back"
+title: "Understanding how Vectors work in C++ (Part-1)"
 date: 2020-04-18
 desc: "Understanding how Vector contaners work in C++ (Part-1): How does push_back work?"
 keywords: "Blog, C++, Vectors, GCC"
