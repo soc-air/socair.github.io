@@ -20,14 +20,13 @@ This blog is focused to explain how vectors work in the backend, and we'll speci
 
 <img src="/assets/Vector-Part-1.png"/>
 
-Vector Containers are type of sequenced containers in C++ commonly uses as a better alternative of arrays. They are also known as dynamic arrays, and as the term suggests - it's one of the advantages they hold over native arrays in C++. You might have heard of STL containers like `vector`, `set`, `queue`, `priority_queue` before. They all have base methods inherited from STL Containers class that we will discuss later.
+Vector Containers are type of sequenced containers in C++ commonly uses as a better alternative of arrays. They are also known as dynamic arrays, and as the term suggests - it's one of the advantages they hold over native arrays in C++. You might have heard of Standard Library containers like `vector`, `set`, `queue`, `priority_queue` before. They all implement methods defined by the Container Concept.
 
 **A few improtant notes before we start:**
 
 - I'm using GCC 10.0.1 which is in the development stage. I've built GCC 10.0.1 from source on my local system. But everything I discuss here, should be same with GCC 8.4 or GCC 9.3 releases.
 - I assume you are at least using C++11. If for any reason you are using C++98, there might be a few differences (for example, variadic arguments were not present in C++98). To not include lots of macros to check C++ versions, I've at times assumed the reader is using C++11 or greater.
 - This blog uses lots of C++ Design Patterns that many would not be aware of. I understand it might just be a good idea to explain them first in a blog, but for now - I assume you have at least heard of them and know a thing or two about C++. I'll cover these in future.
-- If you are using OSX or Windows, this blog might be irrelevant if you plan to reproduce any thing. But it's always good to understand the details.
 
 Let's start with a basic comparison of using arrays and vectors in C++:
 
