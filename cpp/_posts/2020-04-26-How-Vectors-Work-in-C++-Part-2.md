@@ -7,7 +7,7 @@ keywords: "Blog, C++, Vectors, GCC"
 categories: [Blog, C++]
 tags: [Blog, C++]
 blog: [C++]
-published: true
+published: false
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Vector-Part-2.png
