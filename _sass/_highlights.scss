@@ -1,5 +1,6 @@
 .highlight { 
-  background-color: $darkerGray;
+  // $darkerGray
+  background-color: #202020;
   padding: 5px 10px;
   margin: 20px 0;
 }
@@ -13,7 +14,8 @@
 code {
   font-family: 'Cascadia Code', 'Courier', monospace;
   font-size: 13px;
-  color: #999
+  // color: #999
+  color: #999999
 }
  
 // Solarized Light Pygments 
