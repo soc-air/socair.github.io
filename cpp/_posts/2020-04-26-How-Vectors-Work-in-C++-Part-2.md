@@ -25,7 +25,7 @@ That is, we will start from calling a vector constructor and then see how memory
 1. `_Vector_impl_data` struct which contains pointers to memory locations (start, finish and end of storage).
 2. `_Vector_impl` struct (inherits `_Vector_impl_data` as well)).
 
-I usually opt for the bottom-up approach. We'll start from the very basic constructor of a vector and slowly reach to memory allocation and how the above 2 structs are used. Let's start!
+I usually opt for the bottom-up approach. Vectors can be initialized in many ways, three of them will be discussed in today's blog. We'll start from the very basic constructor of a vector using an initializer list and slowly reach to memory allocation and how the above 2 structs are used. Let's start!
 
 ## Using Initializer Lists
 
