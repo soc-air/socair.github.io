@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding how Vectors work in C++ (Part-1)"
+title: "Understanding how Vectors work in C++ (Part-1): How does push_back work?"
 date: 2020-04-18
 desc: "Understanding how Vector contaners work in C++ (Part-1): How does push_back work?"
 keywords: "Blog, C++, Vectors, GCC"
@@ -105,7 +105,6 @@ void push_back(const value_type& __x)
 A few notes to take:
 
 - `value_type`: This is the type of the elements in the vector container. That is, if the vector is `std::vector<std::vector<int> >`, then value_type of the given vector will be `std::vector<int>`. This comes handy later for type checking and more.
-- `_M_impl`: 
 - `_GLIBCXX_ASAN_ANNOTATE_GROW(1)`: The definition of this macro is:
     
     ```cpp
@@ -131,7 +130,6 @@ A few notes to take:
             // ...
         };
     ```
-
     If usage of Macros is new to you, please leave it for now as we'll discuss more about these design patterns in future.
 - A note on usage of `_M_impl`. It is declared as: `_Vector_impl& _M_impl` in the header file. `_Vector_impl` is a struct defined as:
 
