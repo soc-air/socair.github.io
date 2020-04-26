@@ -45,7 +45,7 @@ vector(initializer_list<value_type> __l, const allocator_type& __a = allocator_t
 
 If you are curious what `_Base` is, `_Base` is declared as: `typedef _Vector_base<_Tp, _Alloc> _Base;`. Just so you know, where and how is `_Vector_base` used. When the constructor is called, it calls the constructor of `_Vector_base` with `__a` (allocator type). As you might have noticed, we are calling `_M_range_initialize` and passing 2 iterators (`__l.begin(), __l.end()`) and 1 forward iterator tag.
 
-Note that the iterators are `_ForwardIterator` types. We can use these iterators to access elements from begin (accessed using `.begin()`) till the end (accessed using `.end()`).
+Note that the iterators are Forward Iterators, that is: we can use these iterators to access elements from begin (accessed using `.begin()`) till the end (accessed using `.end()`).
 
 We are using `random_access_iterator_tag` as `forward_iterator_tag`. This tag helps us to categorize the iterator as random-access iterator. Random-access iterators allow accessing elements by passing arbitrary offset position (see: <a href="documentation">http://www.cplusplus.com/reference/iterator/RandomAccessIterator/</a> for more details).
 
@@ -75,9 +75,9 @@ Let's go line by line.
     }
     ```
     * The function `_S_check_init_len` is called by constructors to check size. If the requested size is greater than the maximum size for the allocator type, it throws length error (`"cannot create std::vector larger than max_size()"`). Else, it returns `__n`.
-    * Once we have validated the size, `this->_M_allocate` call allocates the memory. Note that, `_M_allocate` is a part of `_Vector_base` struct. `_M_allocate` allocates memory for `__n` number of objects. This returns as a pointer to the memory location (starting), to `_M_start`.
+    * Once we have validated the size, `this->_M_allocate` call allocates the memory. Note that, `_M_allocate` is a part of `_Vector_base` struct. `_M_allocate` allocates memory for `__n` number of objects. This returns a pointer to the memory location (starting), to `_M_start`.
     * The end of storage pointer stores the end of memory location for the memory allocated for `__n` objects.
-    * The function `std::__uninitialized_copy_a` copies the range [__first, __last) into the `this->_M_impl._M_start`. This returns a Pointer to memory location starting at `this->_M_impl._M_start` with length of `__first - __last`.
+    * The function `std::__uninitialized_copy_a` copies the range `[__first, __last)` into the `this->_M_impl._M_start`. This returns a pointer to memory location starting at `this->_M_impl._M_start` with length of `__first - __last`.
 
 To summarize, when we initialized vector with initializer list:
 
@@ -142,7 +142,7 @@ _Vector_base(size_t __n) : _M_impl() {
         this->_M_impl._M_end_of_storage = this->_M_impl._M_start + __n;
     }
     ```
-    * This will answer most of your queries. Let's start line by line.
+    This will answer most of your queries. Let's start line by line.
     * `this->_M_allocate(__n)` was discussed before, which allocates memory for `__n` objects. Please note that the constructor call `_M_impl()` had initialized these pointers for us. Here, the pointer is set to the starting memory location.
     * Since the function `_M_create_storage` creates storage, and doesn't copy elements to the memory location. So `this->_M_impl._M_finish` is set to `this->_M_impl._M_start`.
     * The end of storage is, as before, set to `this->_M_impl._M_start + __n`.
@@ -188,3 +188,7 @@ _Vector_base(size_t __n, const allocator_type& __a) : _M_impl(__a) {
 ```
 
 Overall, it's the same to what we saw before except that we use the copy of the alloactor of vector `__x`. The call `_M_create_storage(__n)` does the same task of setting pointers `_M_start, M_end_of_storage, _M_finish` as we observed before.
+
+For today's blog, we discussed 3 popular ways to initialize a vector in C++ and went through how memory is allocated when the constructors are called. As we move forward, we will slowly get familiar with the design patterns and methods used in GCC.
+
+As always, I would love to hear your feedback on my blogs. Correct me if I was wrong anywhere, no one is perfect afterall. If this helped you, please let me know - it keeps me going! See you all in the next blog!
