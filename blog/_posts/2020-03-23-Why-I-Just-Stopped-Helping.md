@@ -16,9 +16,9 @@ icon: icon-html
 
 In the past few months, I have received several message requests seeking guidance, help and what not? I have been unbiased in even thinking of helping somebody. And that is how it should be. But...
 
-<img src="/assets/Personal-Blog-1.jpg"/>
-
 <!--more-->
+
+<img src="/assets/Personal-Blog-1.jpg"/>
 
 Let's rewind. No, wait! First read this:
 
