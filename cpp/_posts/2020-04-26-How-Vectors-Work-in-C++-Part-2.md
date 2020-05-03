@@ -20,7 +20,7 @@ In the last blog post, I realized there were a lot of methods inherited from the
 
 <img src="/assets/Vector-Part-2.png"/>
 
-That is, we will start from calling a vector constructor and then see how memory is allocated. If you haven't looked at the previous blog post, please take a look <a href="https://krshrimali.github.io/How-Vectors-Work-in-C++-Part-1">here/</a>. I want to be thorough with the blog post, so I'll divide this into multiple posts. By the end of this post, you'll go through the following structs:
+That is, we will start from calling a vector constructor and then see how memory is allocated. If you haven't looked at the previous blog post, please take a look <a href="https://krshrimali.github.io/How-Vectors-Work-in-C++-Part-1">here</a>. I want to be thorough with the blog post, so I'll divide this into multiple posts. By the end of this post, you'll go through the following structs:
 
 1. `_Vector_impl_data` struct which contains pointers to memory locations (start, finish and end of storage).
 2. `_Vector_impl` struct (inherits `_Vector_impl_data` as well)).
