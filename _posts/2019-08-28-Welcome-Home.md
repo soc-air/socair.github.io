@@ -15,9 +15,9 @@ icon: icon-html
 
 ## About Me
 
-Hello World! I'm Kushashwa Ravi Shrimali, Final Year Undergraduate at International Institute of Information Technology, Naya Raipur with major in Computer Science and Engineering. I've previously worked at NVIDIA (Santa Clara, US) in the DL Frameworks Team (PyTorch), ROSE Labs, NTU Singapore (CV and DL) and with a US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. I love development which brings an impact in helping AI algorithms to be deployed in real-time scenarios.
+Hello World! I'm Kushashwa Ravi Shrimali, Final Year Undergraduate at International Institute of Information Technology, Naya Raipur with major in Computer Science and Engineering. I'm currently interning at Florida based healthcare startup, Care AI (http://care.ai/) as a Software Developer (AI). I've previously worked at NVIDIA (Santa Clara, US) in the DL Frameworks Team (PyTorch), ROSE Labs, NTU Singapore (CV and DL) and with a US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. I love development which brings an impact in helping AI algorithms to be deployed in real-time scenarios.
 
-Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> or <a href="https://krshrimali.github.io/opencv/">OpenCV</a> section of this blog to read my blogs.
+Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> or <a href="https://krshrimali.github.io/cpp/">C++</a> section of this blog to read my blogs.
 
 ## Work Experience
 
