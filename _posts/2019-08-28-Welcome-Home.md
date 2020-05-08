@@ -21,11 +21,18 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
 
 ## Work Experience
 
+- **Care AI (Software Developer Intern, AI), Florida, US** (April 2020 to Present)
+    - Remotely working (due to COVID-19 pandemic). Major responsibilities include:
+        * Optimizing workflow using TensorRT (mainly using C++ API).
+	* Applying Deep Learning, Speech Recognition and Machine Learning models on Android Apps.
+    - _Note: This will be updated with time. :)_
 - **NVIDIA (Deep Learning Frameworks Team, PyTorch), Santa Clara, US**
     - On site internship at NVIDIA Head Quarters, Santa Clara. See the following PRs if you want to know what I worked on.
         * https://github.com/pytorch/pytorch/pull/33322
         * https://github.com/pytorch/pytorch/pull/33063
         * https://github.com/pytorch/pytorch/pull/33063
+    - Mentor: Michael Carilli (Senior Software Developer, NVIDIA)
+    - Manager: Christian Sarofeen
 - **Rapid Rich Object Search (ROSE) Labs, NTU Singapore** 
     - On-site internship at ROSE Labs, NTU Singapore under Prof. Alex Kot (Director, ROSE Labs). Worked on Automatic License Plate Recognition technique in real time using PyTorch in both C++ and Python. Used YOLO based network and achieved 85% accuracy for Single Line License Plates and Double Line License Plates (tested on real time dataset of Singaporean Vehicles).
 - **Big Vision LLC and LearnOpenCV, California**
