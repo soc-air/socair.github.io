@@ -35,14 +35,19 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
     - Manager: Christian Sarofeen
 - **Rapid Rich Object Search (ROSE) Labs, NTU Singapore** 
     - On-site internship at ROSE Labs, NTU Singapore under Prof. Alex Kot (Director, ROSE Labs). Worked on Automatic License Plate Recognition technique in real time using PyTorch in both C++ and Python. Used YOLO based network and achieved 85% accuracy for Single Line License Plates and Double Line License Plates (tested on real time dataset of Singaporean Vehicles).
+    - Mentor: Prof. Alex Kot, Dennis Sng (Deputy Director & Principal Scientist) and Devadeep Shyam (Project Mangaer, AI)
 - **Big Vision LLC and LearnOpenCV, California**
-	- Worked from home in writing blogs and working for clients for Big Vision LLC. Became OpenCV Contributor during my internship, and worked on several projects using C, C++ and Python.
+    - Worked from home in writing blogs and working for clients for Big Vision LLC. Became OpenCV Contributor during my internship, and worked on several projects using C, C++ and Python.
+    - Mentor: Dr. Satya Mallick (CEO, LearnOpenCV)
 - **Indian Institute of Information Technology and Management, Gwalior** 
-	- On-site internship at IIITM Gwalior and worked on A* Search Algorithm to understand communication between a robot and a UAV.
+    - On-site internship at IIITM Gwalior and worked on A* Search Algorithm to understand communication between a robot and a UAV.
+    - Co-authored a paper with Ashish Upadhyay and Prof. Anupam Shukla: https://www.sciencedirect.com/science/article/pii/S1877050918309979.
+    - Mentor: Prof. Anupam Shukla (now Director, IIIT Pune)
 - **OpenStudy, Palo Alto**
-	- The responsibilities included to actively promote the website and it’s cause amongst the students and to guide them through the beginning steps for the website. Made sure the smooth following of Code of Conduct of OpenStudy. Also worked as a leader of OpenStudy Newsletter Programme for two editions as well as Designer in one edition.
+    - The responsibilities included to actively promote the website and it’s cause amongst the students and to guide them through the beginning steps for the website. Made sure the smooth following of Code of Conduct of OpenStudy. Also worked as a leader of OpenStudy Newsletter Programme for two editions as well as Designer in one edition.
+    - Worked under Preetha Ram and Ashwin Ram (now: Technical Director of AI, Google Cloud)
 - **Student Activity Concil, IIIT Naya Raipur**
-	- Coordinated clubs running under SAC: Artificial Intelligence and Machine Learning Club, The Society of Coders. Also became the Technical Coordinator of Annual Technical and Cultural Fest - TechNovate 2019.
+    - Coordinated clubs running under SAC: Artificial Intelligence and Machine Learning Club, The Society of Coders. Also became the Technical Coordinator of Annual Technical and Cultural Fest - TechNovate 2019.
 
 ## Research Interests
 	
@@ -58,7 +63,7 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
 ## Skills
 	
 * **Programming Language:** C++, CUDA, C, Shell, Python, Perl
-* **Tools:** LaTeX, Git, MATLAB, Jupyter
+* **Tools:** LaTeX, Git, MATLAB, Jupyter, Android Studio
 * **Frameworks:** OpenCV, PyTorch, Tensorflow
 * **Libraries:** NumPy, Matplotlib, scikit-learn, OpenCV, PyTorch, Keras, Tensorflow
 
