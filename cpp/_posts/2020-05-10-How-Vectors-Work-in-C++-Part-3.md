@@ -2,12 +2,12 @@
 layout: post
 title: "Understanding how Vectors work in C++ (Part-3): Diving deep into mostly used methods of Vectors"
 date: 2020-05-09
-desc: "Understanding how Vector contaners work in C++ (Part-3): Diving deep into mostly used methods of Vectors"
+desc: "Understanding how Vector contaners work in C++ (Part-3): Diving deep into member functions of Vectors"
 keywords: "Blog, C++, Vectors, GCC"
 categories: [Blog, C++]
 tags: [Blog, C++]
 blog: [C++]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Vector-Part-3.png
