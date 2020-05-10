@@ -18,7 +18,7 @@ In this blog, we'll continue diving deep into the source code of Vector Containe
 
 <!--more-->
 
-<img src="/assets/Vector-Part-3.png/>
+<img src="/assets/Vector-Part-3.png"/>
 
 Before we start, if you haven't looked at the previous blogs in the C++ series, please take a look <a href="http://www.krshrimali.github.io/cpp">here</a>. If you are already familiar with memory allocation in vector containers and vector's base structs, then you can skip reading the previous blogs and continue here. If not, I suggest you reading them.
 
