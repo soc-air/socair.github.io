@@ -130,12 +130,6 @@ A good useful note here is, that `pop_back` function isn't marked `noexcept` as 
 
 Let's go ahead and take a look at a few other member functions (there are many, take a look here: https://en.cppreference.com/w/cpp/container/vector, I only discuss those which are commonly used)
 
-1. `back()`
-2. `front()`
-3. `reserve()`
-4. `size()`
-5. `capacity()`
-
 1. `back()`: Let's take a look at `back` call. As the name suggests (and as we saw before), this returns the last element in the vector container. It can be used as `X.back()` where `X` is a valid vector container. Let's take a look at how it is implemented in GCC:
 
     ```cpp
