@@ -49,7 +49,7 @@ for (auto const& element: X) {
 You will see the output as: `1 2 3`. As you can notice, it popped back the last element which was indeed a vector. Let's start diving deep in the source code now, starting with declaration:
 
 ```cpp
-void pop_back() _GLIBCXX_NOEXCEPT
+void pop_back()
 {
     __glibcxx_required_nonempty();
     __this->_M_impl._M_finish;
@@ -133,14 +133,14 @@ Let's go ahead and take a look at a few other member functions (there are many, 
 1. `back()`: Let's take a look at `back` call. As the name suggests (and as we saw before), this returns the last element in the vector container. It can be used as `X.back()` where `X` is a valid vector container. Let's take a look at how it is implemented in GCC:
 
     ```cpp
-    reference back() _GLIBCXX_NOEXCEPT
+    reference back()
     {
         _glibcxx_requires_nonempty();
         return *(end() - 1);
     }
     
     // definition of end()
-    iterator end() _GLIBCXX_NOEXCEPT
+    iterator end()
     {
         return iterator(this->_M_impl._M_finish);
     }
@@ -151,14 +151,14 @@ Let's go ahead and take a look at a few other member functions (there are many, 
 2. `front()`: It should be very similar to what we saw with `back()`. This returns reference to the first element of the vector.
    
     ```cpp
-    reference front() _GLIBCXX_NOEXCEPT
+    reference front()
     {
         _glibcxx_requires_nonempty();
         return *begin();
     }
 
     // definition of begin()
-    iterator begin() _GLIBCXX_NOEXCEPT
+    iterator begin()
     {
         return iterator(this->_M_impl._M_start);
     }
@@ -186,7 +186,7 @@ Let's go ahead and take a look at a few other member functions (there are many, 
 4. `size()`: This will return the size of the vector container:
 
     ```cpp
-    size_type size() const _GLIBCXX_NOEXCEPT
+    size_type size() const
     {
         return size_type(end() - begin());
     }
@@ -197,7 +197,7 @@ Let's go ahead and take a look at a few other member functions (there are many, 
 5. `capacity()`: This returns the size the container can store currently.
 
     ```cpp
-    size_type capacity() const _GLIBCXX_NOEXCEPT
+    size_type capacity() const
     {
         return size_type(const_iterator(this->_M_impl._M_end_addr(), 0) - begin());
     }
