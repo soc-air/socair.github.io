@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-I'm a Senior Undergraduate at IIIT Naya Raipur, India (2016-20, B.Tech CSE). I love development which makes AI happen in real-time scenarios.
+I'm a Computer Science graduate from IIIT Naya Raipur, India (2016-20). I love development which makes AI happen in real-time scenarios. And I love writing impactful codes. I am currently working as a R&D Deep Learning Engineer at <a href="https://mydukaan.io/">Dukaan</a>.
 
-I have previously interned at :
+I have previously interned at:
 
+* CareAI, Software Developer (AI), Florida, US (Remote, April 2020 - August 2020)
 * NVIDIA, Deep Learning Frameworks Team (PyTorch), Santa Clara, US. (January 2020 - April 2020)
 * Deep learning and Computer Vision Intern at ROSE Labs NTU Singapore (May 2019 - July 2019) 
 * Computer Vision and Machine Learning intern at Big Vision LLC and LearnOpenCV under Satya Mallick, now interim CEO of OpenCV (March 2018 - May 2019)
 * AI Intern at IIIT Gwalior under Prof. Anupam Shukla (Now Director, IIIT Pune). 
-
 
 ### Experience
 
