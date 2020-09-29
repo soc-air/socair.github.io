@@ -15,17 +15,20 @@ icon: icon-html
 
 ## About Me
 
-Hello World! I'm Kushashwa Ravi Shrimali, Final Year Undergraduate at International Institute of Information Technology, Naya Raipur with major in Computer Science and Engineering. I'm currently interning at Florida based healthcare startup, Care AI (http://care.ai/) as a Software Developer (AI). I've previously worked at NVIDIA (Santa Clara, US) in the DL Frameworks Team (PyTorch), ROSE Labs, NTU Singapore (CV and DL) and with a US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. I love development which brings an impact in helping AI algorithms to be deployed in real-time scenarios.
+Hello World! I'm Kushashwa Ravi Shrimali (friends call me Kush, world knows me as krshrimali), a Computer Science Graduate International Institute of Information Technology, Naya Raipur. I'm currently working as R&D Deep Learning Engineer at <a href="https://mydukaan.io">Dukaan</a>, a startup based in Bangalore. I've previously interned at Florida based healthcare startup, Care AI (http://care.ai/) as a Software Developer (AI). I've previously worked at NVIDIA (Santa Clara, US) in the DL Frameworks Team (PyTorch), ROSE Labs, NTU Singapore (CV and DL) and with a US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. 
+
+I love writing impactful codes! My work doesn't stop at getting the accuracy. I love optimizing the models to help deploy in real-time.
 
 Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> or <a href="https://krshrimali.github.io/cpp/">C++</a> section of this blog to read my blogs.
 
 ## Work Experience
 
-- **Care AI (Software Developer Intern, AI), Florida, US** (April 2020 to Present)
+- **Dukaan (R&D Deep Learning Engineer), Bangalore, India** (September 2020 to Present)
+    - Working as an R&D Deep Learning Engineer. Work details to be updated with time.
+- **Care AI (Software Developer Intern, AI), Florida, US** (April 2020 to August 2020)
     - Remotely working (due to COVID-19 pandemic). Major responsibilities include:
         * Optimizing workflow using TensorRT (mainly using C++ API).
 	* Applying Deep Learning, Speech Recognition and Machine Learning models on Android Apps.
-    - _Note: This will be updated with time. :)_
 - **NVIDIA (Deep Learning Frameworks Team, PyTorch), Santa Clara, US**
     - On site internship at NVIDIA Head Quarters, Santa Clara. See the following PRs if you want to know what I worked on.
         * https://github.com/pytorch/pytorch/pull/33322
@@ -65,7 +68,7 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
 * **Programming Language:** C++, CUDA, C, Shell, Python, Perl
 * **Tools:** LaTeX, Git, MATLAB, Jupyter, Android Studio
 * **Frameworks:** OpenCV, PyTorch, Tensorflow
-* **Libraries:** NumPy, Matplotlib, scikit-learn, OpenCV, PyTorch, Keras, Tensorflow
+* **Libraries:** NumPy, Matplotlib, scikit-learn, OpenCV, PyTorch, Keras, Tensorflow, Spacy
 
 ## Non-Academic Interests and Achievements
 
