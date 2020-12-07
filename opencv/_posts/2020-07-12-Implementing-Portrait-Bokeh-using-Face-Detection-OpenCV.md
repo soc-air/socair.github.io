@@ -31,7 +31,7 @@ Don't lose hopes if you are confused. We will be going through each method one b
 
 Before moving ahead, let's talk about "What is Portrait Bokeh?". It's important to talk about the problem before discussing solutions. Take a quick look at the two images below:
 
-<img src="/assets/opencv/input_method1.jpeg" width="200" /> <img src="/assets/opencv/output_final.jpg" />
+<img src="/assets/opencv/input_method1.jpeg" /> <img src="/assets/opencv/output_final.jpg" />
 
 As you might have spotted the difference already, the image on the left is our input (/original) image while the image on the right is our output image. If you haven't spotted the difference, everything except the face in the image on the right is blurred! This feature now comes in almost all smart phones, and is also termed as just Portrait mode. Whenever you want to highlight the people near to the camera (mostly you, your friends or anyone) and blur the background, this is the mode you will usually choose. While some blur everything except faces, others might choose to keep the body instead of just faces. Our problem statement will be limited to faces here.
 
@@ -77,7 +77,7 @@ faces = face_detector.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
 
 Once we have the faces, we can crop them and use in the Step-4 again. The output from face detection should look like this:
 
-<img src="/assets/opencv/rect_sample_method1.jpg" />
+<img src="/assets/opencv/rect_sample_method1.jpeg" />
 
 ## Step - 2: Crop faces
 
