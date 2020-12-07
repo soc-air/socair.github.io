@@ -50,7 +50,7 @@ I started a YouTube channel where I go live on the weekends, and upload videos o
 
 [![KRSHRIMALI'S YT CHANNEL](https://raw.githubusercontent.com/krshrimali/krshrimali.github.io/master/assets/opencv/preview/yt_preview_method1.jpeg)](https://www.youtube.com/watch?v=Nd3wFiSH-gw)
 
-## Step - 1: Detecting Faces using Haarcascade
+## Step 1: Detecting Faces using Haarcascade
 
 We'll be using haarcascade model files to detect face in the image. To ease the computation and satisfy the input to the model, we need to first convert the image to GrayScale (if it's not already) - that is the image will now have only one channel instead of 3 (Blue, Green, Red). Download the model file to your directory from <a href="https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml">here</a>. Let's go ahead and initialize our Face Detector.
 
@@ -79,7 +79,7 @@ Once we have the faces, we can crop them and use in the Step-4 again. The output
 
 <img src="/assets/opencv/rect_sample_method1.jpeg" />
 
-## Step - 2: Crop faces
+## Step 2: Crop faces
 
 To crop them and store in another object:
 
