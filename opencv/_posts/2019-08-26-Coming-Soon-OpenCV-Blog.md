@@ -7,7 +7,7 @@ keywords: "Blog"
 categories: [Blog]
 tags: [Blog]
 blog: [OpenCV]
-published: true
+published: false
 excerpt_separator: <!--more-->
 images:
   - url: /assets/Cover-OpenCV-Announcement.jpg
