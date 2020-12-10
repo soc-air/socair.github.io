@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to crop a circle in OpenCV? Implementing Portrait Bokeh - Part 2"
-date: 2020-12-07
+date: 2020-12-10
 desc: "How to crop a circle in OpenCV? (For portrait bokeh)"
 keywords: "Blog"
 categories: [Blog]
