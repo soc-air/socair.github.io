@@ -27,7 +27,7 @@ To overcome this, we will be talking about cropping a circle in OpenCV today. Th
 
 while pixels are just the brightness values for each channel at a particular coordinate, so you can't really get half of the pixel and crop an exact circle. But the closest we can get to cropping a circle, is to imagine a circle circumscribed in a rectangle (face detection algorithm in OpenCV - CascadeClassifier returns a rectangle - can be a square as well). So if we are able to get a circle from our output of face detection (a rectangle), we will be closer to what we want.
 
-But how do we get started? Clearly, since the circle is circumscribing the rectangle, the closest we can get to finding radius is: `max(width, height)/2`. While center will be: `(top_left_x + width, top_left_y + height)`. Once we know these two properties of the circle, we will now have the circle equation.
+But how do we get started? Clearly, since the circle is circumscribing the rectangle, the closest we can get to finding radius is: `max(width, height)/2`. While center will be: `(top_left_x + width/2, top_left_y + height/2)`. Once we know these two properties of the circle, we will now have the circle equation.
 
 ## Methodology
 
