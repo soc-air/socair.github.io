@@ -10,12 +10,12 @@ blog: [OpenCV]
 published: false
 excerpt_separator: <!--more-->
 images:
-  - url: /assets/opencv/thumbnails/December_7_2020.jpg
+  - url: /assets/opencv/thumbnails/Dec_10_2020.jpg
 icon: icon-html
 ---
 <!--more-->
 
-<img src="/assets/opencv/thumbnails/December_10_2020.jpg"/>
+<img src="/assets/opencv/thumbnails/Dec_10_2020.jpg"/>
 
 Hi everyone! In the previous blog we implemented Portrait Bokeh using Face Detection in OpenCV. While the results were good for a start, we definitely want to be closer to the output we expect. The end goal is to blur everything except the face. The main problem we noticed was:
 
