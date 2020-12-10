@@ -7,7 +7,7 @@ keywords: "Blog"
 categories: [Blog]
 tags: [Blog]
 blog: [OpenCV]
-published: false
+published: true
 excerpt_separator: <!--more-->
 images:
   - url: /assets/opencv/thumbnails/Dec_10_2020.jpg
