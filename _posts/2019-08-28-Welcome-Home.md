@@ -15,16 +15,22 @@ icon: icon-html
 
 ## About Me
 
-Hello World! I'm Kushashwa Ravi Shrimali (friends call me Kush, world knows me as krshrimali), a Computer Science Graduate International Institute of Information Technology, Naya Raipur. I'm currently working as R&D Deep Learning Engineer at <a href="https://mydukaan.io">Dukaan</a>, a startup based in Bangalore. I've previously interned at Florida based healthcare startup, Care AI (http://care.ai/) as a Software Developer (AI). I've previously worked at NVIDIA (Santa Clara, US) in the DL Frameworks Team (PyTorch), ROSE Labs, NTU Singapore (CV and DL) and with a US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. 
+Hello World! I'm Kushashwa Ravi Shrimali (friends call me Kush, world knows me as krshrimali), a Computer Science Graduate International Institute of Information Technology, Naya Raipur. I'm currently working as an AI Engineer at a Florida based company, CareAI. Previously, I was a R&D Deep Learning Engineer at <a href="https://mydukaan.io">Dukaan</a>, a startup based in Bangalore. I was also an intern at Care AI (http://care.ai/) this year. I've previously worked at NVIDIA (Santa Clara, US) in the DL Frameworks Team (PyTorch), ROSE Labs, NTU Singapore (CV and DL) and with a US based Startup, Big Vision LLC and LearnOpenCV under mentorship of Dr. Satya Mallick. 
+
+While on the weekdays, I am an AI Engineer, on the weekends - I contribute to opensource, go live on YouTube and also write blogs (where you are right now). Make sure to check out my <a href="https://youtube.com/c/kushashwaraviShrimali">YouTube channel</a> if you like it!
 
 I love writing impactful codes! My work doesn't stop at getting the accuracy. I love optimizing the models to help deploy in real-time.
 
-Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> or <a href="https://krshrimali.github.io/cpp/">C++</a> section of this blog to read my blogs.
+Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a>, <a href="https://krshrimali.github.io/opencv/">OpenCV</a> or <a href="https://krshrimali.github.io/cpp/">C++</a> section of this blog to read my blogs.
 
 ## Work Experience
 
-- **Dukaan (R&D Deep Learning Engineer), Bangalore, India** (September 2020 to Present)
-    - Working as an R&D Deep Learning Engineer. Work details to be updated with time.
+- **Care AI** (AI Engineer), Florida, US** (WFH, November 2020 to Present)
+    - Working as an AI Engineer for the healthcare startup, CareAI. (Work will be updated with time)
+- **Dukaan (R&D Deep Learning Engineer), Bangalore, India** (September 2020 to October 2020)
+    - Worked as R&D DL Engineer.
+    - Contributed in training custom CV and NLP models for deployment for Dukaan App.
+    - Note: Had to leave and come back home for indefinite time because of COVID Emergency at home.
 - **Care AI (Software Developer Intern, AI), Florida, US** (April 2020 to August 2020)
     - Remotely working (due to COVID-19 pandemic). Major responsibilities include:
         * Optimizing workflow using TensorRT (mainly using C++ API).
@@ -62,6 +68,14 @@ Please navigate to <a href="https://krshrimali.github.io/pytorch/">PyTorch</a> o
 	* Object Detection and Image Analysis
 - Development
 	* Open Source Framework Development in Libraries: PyTorch, OpenCV, NumPy
+
+## YouTube Channel
+
+This deserves another section since I've put a lot of hard work into this. :)
+
+- https://youtube.com/c/kushashwaraviShrimali
+
+I upload videos on weekdays, after my work hours and go live on weekends to talk about AI, development and importance of optimization.
 
 ## Skills
 	
